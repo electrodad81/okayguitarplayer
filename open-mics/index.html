@@ -94,7 +94,7 @@ footer { border-top: 3px solid var(--rule); padding: 8px max(16px, env(safe-area
     <h1>Okay <mark>open mics</mark></h1>
     <p class="sub">Southern California. Nights with music slots. <span id="checked"></span></p>
     <div class="actions">
-      <button class="btn" type="button" id="submitBtn">Submit a mic</button>
+      <button class="btn" type="button" id="submitBtn">Add a mic: DM @okayguitarplayer</button>
       <a class="btn solid" id="support" href="https://okayguitarplayer-shop.fourthwall.com/supporters/pricing?utm_source=open-mic-map&amp;utm_medium=web&amp;utm_campaign=open-mic-map&amp;utm_content=open-mic-map" target="_blank" rel="noopener">Help keep this map going</a>
     </div>
   </div>
@@ -131,7 +131,7 @@ footer { border-top: 3px solid var(--rule); padding: 8px max(16px, env(safe-area
 </main>
 <div id="panel" hidden role="dialog" aria-modal="false" aria-labelledby="panelTitle"></div>
 <footer>
-  <span>A community list by <a href="https://www.threads.com/@okayguitarplayer">@okayguitarplayer</a>. Times change: check the source before you go.</span>
+  <span>A community list by @okayguitarplayer on <a href="https://www.threads.com/@okayguitarplayer" target="_blank" rel="noopener">Threads</a> and <a href="https://www.instagram.com/okayguitarplayer/" target="_blank" rel="noopener">Instagram</a>. Times change: check the source before you go.</span>
   <span>Listings: Okay Open Mics, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Directory leads from <a href="https://badslava.com/">Badslava</a>.</span>
   <span>Map: <a href="https://openfreemap.org/">OpenFreeMap</a> © <a href="https://openmaptiles.org/">OpenMapTiles</a>, data © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>.</span>
 </footer>
@@ -234,7 +234,7 @@ function renderList(feats) {
     el.querySelector('[data-act="show"]').addEventListener("click", () => select(p.id, true));
     el.querySelector('[data-act="still"]').addEventListener("click", (e) => {
       const box = el.querySelector(".still"); box.hidden = !box.hidden;
-      box.innerHTML = `<div class="note">Player check-ins are coming soon: one tap for "still running", "stopped" or "I played here". Until then, DM <a href="https://www.threads.com/@okayguitarplayer">@okayguitarplayer</a> and we'll update it.</div>`;
+      box.innerHTML = `<div class="note">Player check-ins are coming soon: one tap for "still running", "stopped" or "I played here". Until then, DM @okayguitarplayer on <a href="https://www.threads.com/@okayguitarplayer" target="_blank" rel="noopener">Threads</a> or <a href="https://www.instagram.com/okayguitarplayer/" target="_blank" rel="noopener">Instagram</a> and we'll update it.</div>`;
       e.currentTarget.setAttribute("aria-expanded", String(!box.hidden));
     });
     rows.appendChild(el);
@@ -331,9 +331,9 @@ function alertNote(msg) { $("count").textContent = msg; }
 $("submitBtn").addEventListener("click", () => {
   const panel = $("panel");
   panel.innerHTML = `<h2 id="panelTitle">Submit an open mic</h2>
-    <p>The player form is coming soon. It will ask for:</p>
+    <p>DM <b>@okayguitarplayer</b> on <a href="https://www.threads.com/@okayguitarplayer" target="_blank" rel="noopener">Threads</a> or <a href="https://www.instagram.com/okayguitarplayer/" target="_blank" rel="noopener">Instagram</a> (same handle on both) with:</p>
     <ul><li>Venue name and address</li><li>Night and how often (every week, 1st and 3rd Tuesday…)</li><li>Sign-up and start times, cost, all ages or 21+</li><li>A link where the venue or host posts about it</li></ul>
-    <p>Until then, DM <a href="https://www.threads.com/@okayguitarplayer">@okayguitarplayer</a> on Threads with those details. Every new mic gets checked before it turns from grey to checked.</p>
+    <p>Every new mic gets checked before it turns from hollow to checked. A player form is coming later.</p>
     <button class="btn" type="button" id="closePanel">Close</button>`;
   panel.hidden = false; $("closePanel").focus();
   $("closePanel").addEventListener("click", () => { panel.hidden = true; $("submitBtn").focus(); });
