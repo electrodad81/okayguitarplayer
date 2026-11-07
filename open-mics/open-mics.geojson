@@ -22,30 +22,28 @@
     "city": "Riverside",
     "county": "Riverside",
     "day": "TU",
-    "schedule_text": "Every Tuesday 6:30 PM, sign-up 6:30, until 8:30 PM; per 2014 article",
+    "schedule_text": "Weekly, Tuesdays",
     "schedule_rule": "weekly:TU",
     "listed_date": null,
     "signup_time": "6:30 PM",
     "start_time": "6:30 PM",
     "end_time": "8:30 PM",
-    "signup_method": null,
     "format": "music",
-    "slot": "no song limit stated",
+    "slot": "No song limit stated",
     "backline": null,
     "ages": "all",
     "cost": "Free",
-    "host": null,
     "instagram": null,
     "facebook": null,
     "website": null,
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": "Only a 2014 article; no 2026 evidence found. Augie's Coffee House locations in Redlands and Chico are separate businesses.",
+    "times_vary": false,
     "sources": [
      {
       "url": "https://cbubanner.com/2014/09/29/coffee-houses-host-open-mic-nights",
       "date": "2014-09-29",
-      "label": "\"Augie’s Coffee House at 4205 Main St. h"
+      "label": "cbubanner.com"
      }
     ]
    }
@@ -67,40 +65,38 @@
     "city": "Riverside",
     "county": "Riverside",
     "day": "MO",
-    "schedule_text": "Every Monday 9 PM to 11 PM (Dec 2024 listing)",
+    "schedule_text": "Weekly, Mondays",
     "schedule_rule": "weekly:MO",
     "listed_date": null,
     "signup_time": null,
     "start_time": "9:00 PM",
     "end_time": "11:00 PM",
-    "signup_method": null,
     "format": "mixed",
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": null,
-    "host": "Riverside Underground Performance Organization (RUPO)",
     "instagram": null,
     "facebook": null,
     "website": "https://www.facebook.com/backtothegrind/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": "Search snippet of a Yelp Q&A (not captured; page rejected) reportedly says the owner moved poetry nights to Mondays at 6:30, which would suggest this slot changed to poetry-only. Unverified. Format 'mixed' is a guess from RUPO coverage; no music-slot detail seen.",
+    "times_vary": false,
     "sources": [
      {
       "url": "https://tockify.com/riversidefoodlab/detail/343/1733202000000",
       "date": "2024-12-02",
-      "label": "\"Every Monday from 9PM-11PM at Back to t"
+      "label": "tockify.com"
      },
      {
       "url": "https://www.highlandernews.org/32135/beneath-grind-inside-open-mic-night-riversides-downtown-coffee-house/",
       "date": "2018-02-19",
-      "label": "Describes a \"Riverside Underground Perfo"
+      "label": "highlandernews.org"
      },
      {
       "url": "https://badslava.com/details.php?id=528",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -122,45 +118,43 @@
     "city": "Riverside",
     "county": "Riverside",
     "day": "WE",
-    "schedule_text": "Every Wednesday; sign-up 5:30 PM, open mic 6 PM to 9 PM (per host listing for 2026-12-02)",
+    "schedule_text": "Weekly, Wednesdays",
     "schedule_rule": "weekly:WE",
     "listed_date": null,
     "signup_time": "5:30 PM",
     "start_time": "6:00 PM",
     "end_time": "9:00 PM",
-    "signup_method": null,
     "format": "music",
-    "slot": "10-15 minute sets (Riverside Scene, Feb 2024)",
+    "slot": "10-15 minute sets",
     "backline": null,
     "ages": "all",
     "cost": "No cover",
-    "host": "Patrick Maloney / Riverside Open Mic Music Series",
     "instagram": "https://www.instagram.com/riversideopenmic/",
     "facebook": "https://www.facebook.com/RiversideOpenMic/",
     "website": null,
     "tier": "checked",
     "checked_date": "2026-11-06",
-    "notes": "Host's Instagram flyers (checked 2026-11-07): \"Sign Up 530pm - Open Mic 6pm to 9pm - Music Only\". The 6:30/7:00 times seen elsewhere belong to the Thursday comedy mic.",
+    "times_vary": false,
     "sources": [
      {
       "url": "https://allevents.in/riverside/riverside-open-mic-music-series-back-to-the-grind-december-2nd-2026/200030913514139",
       "date": "2026-11-06",
-      "label": "Host-posted listing: \"Sign up 530 PM\" .."
+      "label": "allevents.in"
      },
      {
       "url": "https://www.facebook.com/RiversideOpenMic/",
       "date": "2026-11-06",
-      "label": "Page shows a new event created 10 hours "
+      "label": "facebook.com"
      },
      {
       "url": "https://allevents.in/riverside/open-mic",
       "date": "2026-11-06",
-      "label": "Upcoming list: \"RIVERSIDE OPEN MIC MUSIC"
+      "label": "allevents.in"
      },
      {
       "url": "https://riversidescene.com/articles/concerts/backtothegrindopenmicmusicnight",
       "date": "2024-02-07",
-      "label": "\"Back to the Grind hosts an open mic mus"
+      "label": "riversidescene.com"
      }
     ]
    }
@@ -182,30 +176,28 @@
     "city": "Santa Ana",
     "county": "Orange",
     "day": "WE",
-    "schedule_text": "Weekly, Wednesday",
+    "schedule_text": "Weekly, Wednesdays",
     "schedule_rule": "weekly:WE",
     "listed_date": "2026-11-11",
     "signup_time": null,
     "start_time": "10:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/proofbar/",
     "facebook": null,
     "website": "http://www.proofbar.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": "Wednesday night open mic at Proof bar, Santa Ana. Sign up at 9:30 PM, performances start at 10 PM. It is an open mic, anything goes and devoid of censorship. Bring your friends, bring your family, bring everybody! There’s no other open mic like this on the planet!",
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=10136",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -227,30 +219,28 @@
     "city": "Fullerton",
     "county": "Orange",
     "day": "WE",
-    "schedule_text": "Weekly, Wednesday",
+    "schedule_text": "Weekly, Wednesdays",
     "schedule_rule": "weekly:WE",
     "listed_date": "2026-11-11",
     "signup_time": null,
     "start_time": "8:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/thenightowlfullerton/",
     "facebook": null,
     "website": "http://www.tnofullerton.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=10946",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -272,30 +262,28 @@
     "city": "Downey",
     "county": "Los Angeles",
     "day": "TU",
-    "schedule_text": "Weekly, Tuesday",
+    "schedule_text": "Weekly, Tuesdays",
     "schedule_rule": "weekly:TU",
     "listed_date": "2026-11-10",
     "signup_time": null,
     "start_time": "8:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/downeybrewingco/",
     "facebook": null,
     "website": "https://www.downeybrewingcompany.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=11004",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -317,30 +305,28 @@
     "city": "Los Angeles",
     "county": "Los Angeles",
     "day": "MO",
-    "schedule_text": "Weekly, Monday",
+    "schedule_text": "Weekly, Mondays",
     "schedule_rule": "weekly:MO",
     "listed_date": "2026-11-09",
     "signup_time": null,
     "start_time": "8:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "$5/5 minutes",
-    "host": null,
     "instagram": "https://www.instagram.com/pauhausla/",
     "facebook": null,
     "website": "http://pauhausgallery.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": "Music only",
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=15117",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -362,30 +348,28 @@
     "city": "Pasadena",
     "county": "Los Angeles",
     "day": "TU",
-    "schedule_text": "Weekly, Tuesday",
+    "schedule_text": "Weekly, Tuesdays",
     "schedule_rule": "weekly:TU",
     "listed_date": "2026-11-10",
     "signup_time": null,
     "start_time": "8:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/barneysbeanery/",
     "facebook": null,
     "website": "http://www.barneysbeanery.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=15350",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -407,30 +391,28 @@
     "city": "Long Beach",
     "county": "Los Angeles",
     "day": "FR",
-    "schedule_text": "Bi-Weekly, Friday",
+    "schedule_text": "Every other Friday",
     "schedule_rule": "biweekly:FR",
     "listed_date": "2026-11-13",
     "signup_time": null,
     "start_time": "5:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/partakecollective/",
     "facebook": null,
     "website": "https://www.partakecollective.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": "Every 2nd and 4th Friday of the month",
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=16467",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -452,30 +434,28 @@
     "city": "San Diego",
     "county": "San Diego",
     "day": "MO",
-    "schedule_text": "Weekly, Monday",
+    "schedule_text": "Weekly, Mondays",
     "schedule_rule": "weekly:MO",
     "listed_date": "2026-11-09",
     "signup_time": null,
     "start_time": "6:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": null,
     "facebook": null,
     "website": "http://www.lestats.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=17547",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -497,30 +477,28 @@
     "city": "La Mesa",
     "county": "San Diego",
     "day": "FR",
-    "schedule_text": "Weekly, Friday",
+    "schedule_text": "Weekly, Fridays",
     "schedule_rule": "weekly:FR",
     "listed_date": "2026-11-13",
     "signup_time": null,
     "start_time": "5:30 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/spacebarcafe/",
     "facebook": null,
     "website": "http://www.atspacebar.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": "Signup 6pm",
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=17598",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -542,30 +520,28 @@
     "city": "Long Beach",
     "county": "Los Angeles",
     "day": "FR",
-    "schedule_text": "Weekly, Friday",
+    "schedule_text": "Weekly, Fridays",
     "schedule_rule": "weekly:FR",
     "listed_date": "2026-11-13",
     "signup_time": null,
     "start_time": "7:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/wrigleycoffee/",
     "facebook": null,
     "website": "http://www.wrigleycoffee.org/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=18668",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -587,30 +563,28 @@
     "city": "Los Angeles",
     "county": "Los Angeles",
     "day": "WE",
-    "schedule_text": "Weekly, Wednesday",
+    "schedule_text": "Weekly, Wednesdays",
     "schedule_rule": "weekly:WE",
     "listed_date": "2026-11-11",
     "signup_time": null,
     "start_time": "6:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Paid",
-    "host": null,
     "instagram": "https://www.instagram.com/iptche.la/",
     "facebook": null,
     "website": "https://www.yelp.com/biz/iptche-los-angeles",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=19264",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -632,30 +606,28 @@
     "city": "Los Angeles",
     "county": "Los Angeles",
     "day": "TU",
-    "schedule_text": "Weekly, Tuesday",
+    "schedule_text": "Weekly, Tuesdays",
     "schedule_rule": "weekly:TU",
     "listed_date": "2026-11-10",
     "signup_time": null,
     "start_time": "8:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/ladreamcenter/",
     "facebook": null,
     "website": "http://www.dreamcenter.org/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=19276",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -677,30 +649,28 @@
     "city": "Sherman Oaks",
     "county": "Los Angeles",
     "day": "TH",
-    "schedule_text": "Weekly, Thursday",
+    "schedule_text": "Weekly, Thursdays",
     "schedule_rule": "weekly:TH",
     "listed_date": "2026-11-12",
     "signup_time": null,
     "start_time": "9:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/happyrabbitbarandlounge/",
     "facebook": null,
     "website": "http://happyrabbitbarandlounge.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=19278",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -722,35 +692,33 @@
     "city": "Anaheim",
     "county": "Orange",
     "day": "WE",
-    "schedule_text": "Weekly, Wednesday",
+    "schedule_text": "Weekly, Wednesdays",
     "schedule_rule": "weekly:WE",
     "listed_date": "2026-11-11",
     "signup_time": null,
     "start_time": "6:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/hobanaheim///",
     "facebook": null,
     "website": "https://anaheim.houseofblues.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=19635",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      },
      {
       "url": "https://badslava.com/details.php?id=30486",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -772,30 +740,28 @@
     "city": "Anaheim",
     "county": "Orange",
     "day": "FR",
-    "schedule_text": "Weekly, Friday",
+    "schedule_text": "Weekly, Fridays",
     "schedule_rule": "weekly:FR",
     "listed_date": "2026-11-13",
     "signup_time": null,
     "start_time": "7:30 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": null,
     "facebook": null,
     "website": "https://www.noblealeworks.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=19636",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -817,30 +783,28 @@
     "city": "Anaheim",
     "county": "Orange",
     "day": "TH",
-    "schedule_text": "Weekly, Thursday",
+    "schedule_text": "Weekly, Thursdays",
     "schedule_rule": "weekly:TH",
     "listed_date": "2026-11-12",
     "signup_time": null,
     "start_time": "6:30 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/brewheim/",
     "facebook": null,
     "website": "https://www.brewheim.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=19637",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -862,30 +826,28 @@
     "city": null,
     "county": "Orange",
     "day": "MO",
-    "schedule_text": "Weekly, Monday",
+    "schedule_text": "Weekly, Mondays",
     "schedule_rule": "weekly:MO",
     "listed_date": "2026-11-09",
     "signup_time": null,
     "start_time": "9:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": null,
     "facebook": null,
     "website": "https://disneyland.disney.go.com/entertainment/disney-california-adventure/frozen-live-at-hyperion/?",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=19638",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -907,30 +869,28 @@
     "city": "Anaheim",
     "county": "Orange",
     "day": "TH",
-    "schedule_text": "Weekly, Thursday",
+    "schedule_text": "Weekly, Thursdays",
     "schedule_rule": "weekly:TH",
     "listed_date": "2026-11-12",
     "signup_time": null,
     "start_time": "5:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/anaheimlibrary/",
     "facebook": null,
     "website": "http://anaheim.net/library",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=19639",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -952,30 +912,28 @@
     "city": "Anaheim",
     "county": "Orange",
     "day": "TU",
-    "schedule_text": "Weekly, Tuesday",
+    "schedule_text": "Weekly, Tuesdays",
     "schedule_rule": "weekly:TU",
     "listed_date": "2026-11-10",
     "signup_time": null,
     "start_time": "6:30 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/radiantbeerco/",
     "facebook": null,
     "website": "http://www.radiantbeer.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=19640",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -997,30 +955,28 @@
     "city": "Anaheim",
     "county": "Orange",
     "day": "TH",
-    "schedule_text": "Weekly, Thursday",
+    "schedule_text": "Weekly, Thursdays",
     "schedule_rule": "weekly:TH",
     "listed_date": "2026-11-12",
     "signup_time": null,
     "start_time": "5:30 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/anaheimplays/",
     "facebook": null,
     "website": "http://anaheim.net/903/Library-Locations",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=19641",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -1042,30 +998,28 @@
     "city": "Anaheim",
     "county": "Orange",
     "day": "SA",
-    "schedule_text": "Weekly, Saturday",
+    "schedule_text": "Weekly, Saturdays",
     "schedule_rule": "weekly:SA",
     "listed_date": "2026-11-07",
     "signup_time": null,
     "start_time": "8:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/brewery_x/",
     "facebook": null,
     "website": "http://www.brewery-x.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=19642",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -1087,30 +1041,28 @@
     "city": "N Hollywood",
     "county": "Los Angeles",
     "day": "MO",
-    "schedule_text": "Weekly, Monday",
+    "schedule_text": "Weekly, Mondays",
     "schedule_rule": "weekly:MO",
     "listed_date": "2026-11-09",
     "signup_time": null,
     "start_time": "7:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/republicofpie/",
     "facebook": null,
     "website": "http://www.republicofpie.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": "Music only",
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=19766",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -1132,30 +1084,28 @@
     "city": "Los Angeles",
     "county": "Los Angeles",
     "day": "SU",
-    "schedule_text": "Weekly, Sunday",
+    "schedule_text": "Weekly, Sundays",
     "schedule_rule": "weekly:SU",
     "listed_date": "2026-11-08",
     "signup_time": null,
     "start_time": "7:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/blackrabbitrose/",
     "facebook": null,
     "website": "http://www.blackrabbitrose.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=19842",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -1177,30 +1127,28 @@
     "city": "Los Angeles",
     "county": "Los Angeles",
     "day": "TH",
-    "schedule_text": "Weekly, Thursday",
+    "schedule_text": "Weekly, Thursdays",
     "schedule_rule": "weekly:TH",
     "listed_date": "2026-11-12",
     "signup_time": null,
     "start_time": "7:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/blipsybar/",
     "facebook": null,
     "website": "http://www.blipsy-dotcom.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=19843",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -1222,30 +1170,28 @@
     "city": "Los Angeles",
     "county": "Los Angeles",
     "day": "FR",
-    "schedule_text": "Weekly, Friday",
+    "schedule_text": "Weekly, Fridays",
     "schedule_rule": "weekly:FR",
     "listed_date": "2026-11-13",
     "signup_time": null,
     "start_time": "8:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/storiesbooksandcafe/",
     "facebook": null,
     "website": "http://www.storiesla.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=19851",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -1267,30 +1213,28 @@
     "city": "Los Angeles",
     "county": "Los Angeles",
     "day": "TH",
-    "schedule_text": "Weekly, Thursday",
+    "schedule_text": "Weekly, Thursdays",
     "schedule_rule": "weekly:TH",
     "listed_date": "2026-11-12",
     "signup_time": null,
     "start_time": "8:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/thegrandstarjazzclub/",
     "facebook": null,
     "website": "http://www.grandstarjazzclub.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=19852",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -1312,30 +1256,28 @@
     "city": "Los Angeles",
     "county": "Los Angeles",
     "day": "WE",
-    "schedule_text": "Weekly, Wednesday",
+    "schedule_text": "Weekly, Wednesdays",
     "schedule_rule": "weekly:WE",
     "listed_date": "2026-11-11",
     "signup_time": null,
     "start_time": "9:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/thelexingtonbar/",
     "facebook": null,
     "website": "https://yelp.com/biz/the-lexington-bar-los-angeles",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=19853",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -1357,30 +1299,28 @@
     "city": "Los Angeles",
     "county": "Los Angeles",
     "day": "SU",
-    "schedule_text": "Weekly, Sunday",
+    "schedule_text": "Weekly, Sundays",
     "schedule_rule": "weekly:SU",
     "listed_date": "2026-11-08",
     "signup_time": null,
     "start_time": "9:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/lodgeroom/",
     "facebook": null,
     "website": "http://lodgeroomhlp.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=19854",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -1402,30 +1342,28 @@
     "city": "Los Angeles",
     "county": "Los Angeles",
     "day": "SU",
-    "schedule_text": "Weekly, Sunday",
+    "schedule_text": "Weekly, Sundays",
     "schedule_rule": "weekly:SU",
     "listed_date": "2026-11-08",
     "signup_time": null,
     "start_time": "6:30 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/themintla/",
     "facebook": null,
     "website": "http://www.themintla.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=19855",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -1447,30 +1385,28 @@
     "city": "Los Angeles",
     "county": "Los Angeles",
     "day": "TH",
-    "schedule_text": "Weekly, Thursday",
+    "schedule_text": "Weekly, Thursdays",
     "schedule_rule": "weekly:TH",
     "listed_date": "2026-11-12",
     "signup_time": null,
     "start_time": "9:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/akbarsilverlake/",
     "facebook": null,
     "website": "http://akbarsilverlake.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=19858",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -1492,30 +1428,28 @@
     "city": "Los Angeles",
     "county": "Los Angeles",
     "day": "TU",
-    "schedule_text": "Weekly, Tuesday",
+    "schedule_text": "Weekly, Tuesdays",
     "schedule_rule": "weekly:TU",
     "listed_date": "2026-11-10",
     "signup_time": null,
     "start_time": "9:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/clubteegee/",
     "facebook": null,
     "website": null,
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=19861",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -1537,30 +1471,28 @@
     "city": "Los Angeles",
     "county": "Los Angeles",
     "day": "TH",
-    "schedule_text": "Weekly, Thursday",
+    "schedule_text": "Weekly, Thursdays",
     "schedule_rule": "weekly:TH",
     "listed_date": "2026-11-12",
     "signup_time": null,
     "start_time": "8:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/crawfordsbarla/",
     "facebook": null,
     "website": "https://yelp.com/biz/crawfords-los-angeles-2",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=19862",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -1582,30 +1514,28 @@
     "city": "Los Angeles",
     "county": "Los Angeles",
     "day": "TU",
-    "schedule_text": "Weekly, Tuesday",
+    "schedule_text": "Weekly, Tuesdays",
     "schedule_rule": "weekly:TU",
     "listed_date": "2026-11-10",
     "signup_time": null,
     "start_time": "9:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/theechola/",
     "facebook": null,
     "website": "https://theecho.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=19863",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -1627,30 +1557,28 @@
     "city": "Los Angeles",
     "county": "Los Angeles",
     "day": "TH",
-    "schedule_text": "Weekly, Thursday",
+    "schedule_text": "Weekly, Thursdays",
     "schedule_rule": "weekly:TH",
     "listed_date": "2026-11-12",
     "signup_time": null,
     "start_time": "9:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/footsiesbar/",
     "facebook": null,
     "website": "https://www.facebook.com/Footsies/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=19865",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -1672,30 +1600,28 @@
     "city": "N Hollywood",
     "county": "Los Angeles",
     "day": "TU",
-    "schedule_text": "Weekly, Tuesday",
+    "schedule_text": "Weekly, Tuesdays",
     "schedule_rule": "weekly:TU",
     "listed_date": "2026-11-10",
     "signup_time": null,
     "start_time": "7:30 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/ronswallow",
     "facebook": null,
     "website": "http://www.universalbarandgrill.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=20290",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -1717,30 +1643,28 @@
     "city": "Encinitas",
     "county": "San Diego",
     "day": "MO",
-    "schedule_text": "Weekly, Monday",
+    "schedule_text": "Weekly, Mondays",
     "schedule_rule": "weekly:MO",
     "listed_date": "2026-11-09",
     "signup_time": null,
     "start_time": "8:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": null,
     "facebook": null,
     "website": "http://www.peabodysrocks.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=20294",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -1762,30 +1686,28 @@
     "city": null,
     "county": "Orange",
     "day": "TH",
-    "schedule_text": "Weekly, Thursday",
+    "schedule_text": "Weekly, Thursdays",
     "schedule_rule": "weekly:TH",
     "listed_date": "2026-11-12",
     "signup_time": null,
     "start_time": "8:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/DurtyNellys_OC/",
     "facebook": null,
     "website": "http://durtynellyscostamesa.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=20299",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -1807,30 +1729,28 @@
     "city": "San Marcos",
     "county": "San Diego",
     "day": "WE",
-    "schedule_text": "Weekly, Wednesday",
+    "schedule_text": "Weekly, Wednesdays",
     "schedule_rule": "weekly:WE",
     "listed_date": "2026-11-11",
     "signup_time": null,
     "start_time": "6:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/meadiocrity.mead/",
     "facebook": null,
     "website": "https://www.meadiocritymead.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=20302",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -1852,30 +1772,28 @@
     "city": "Culver City",
     "county": "Los Angeles",
     "day": "MO",
-    "schedule_text": "Weekly, Monday",
+    "schedule_text": "Weekly, Mondays",
     "schedule_rule": "weekly:MO",
     "listed_date": "2026-11-09",
     "signup_time": null,
     "start_time": "7:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": null,
     "facebook": null,
     "website": null,
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=20303",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -1897,30 +1815,28 @@
     "city": "Sherman Oaks",
     "county": "Los Angeles",
     "day": "TH",
-    "schedule_text": "Weekly, Thursday",
+    "schedule_text": "Weekly, Thursdays",
     "schedule_rule": "weekly:TH",
     "listed_date": "2026-11-12",
     "signup_time": null,
     "start_time": "8:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": null,
     "facebook": null,
     "website": "http://www.thebarreltavern.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=20306",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -1942,30 +1858,28 @@
     "city": "Pasadena",
     "county": "Los Angeles",
     "day": "MO",
-    "schedule_text": "Weekly, Monday",
+    "schedule_text": "Weekly, Mondays",
     "schedule_rule": "weekly:MO",
     "listed_date": "2026-11-09",
     "signup_time": null,
     "start_time": "8:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": null,
     "facebook": null,
     "website": "http://theicehouse.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=20312",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -1987,30 +1901,28 @@
     "city": "N Hollywood",
     "county": "Los Angeles",
     "day": "MO",
-    "schedule_text": "Weekly, Monday",
+    "schedule_text": "Weekly, Mondays",
     "schedule_rule": "weekly:MO",
     "listed_date": "2026-11-09",
     "signup_time": null,
     "start_time": "8:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": null,
     "facebook": null,
     "website": "http://kulakswoodshed.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=20313",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -2032,30 +1944,28 @@
     "city": "Oceanside",
     "county": "San Diego",
     "day": "MO",
-    "schedule_text": "Weekly, Monday",
+    "schedule_text": "Weekly, Mondays",
     "schedule_rule": "weekly:MO",
     "listed_date": "2026-11-09",
     "signup_time": null,
     "start_time": "7:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": null,
     "facebook": null,
     "website": null,
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=20314",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -2077,30 +1987,28 @@
     "city": "N Hollywood",
     "county": "Los Angeles",
     "day": "FR",
-    "schedule_text": "Weekly, Friday",
+    "schedule_text": "Weekly, Fridays",
     "schedule_rule": "weekly:FR",
     "listed_date": "2026-11-13",
     "signup_time": null,
     "start_time": "10:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/thenohodiner/",
     "facebook": null,
     "website": "http://northhollywooddiner.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=20317",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -2122,30 +2030,28 @@
     "city": "N Hollywood",
     "county": "Los Angeles",
     "day": "SA",
-    "schedule_text": "Weekly, Saturday",
+    "schedule_text": "Weekly, Saturdays",
     "schedule_rule": "weekly:SA",
     "listed_date": "2026-11-07",
     "signup_time": null,
     "start_time": "10:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/thenohodiner/",
     "facebook": null,
     "website": "http://northhollywooddiner.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=20321",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -2167,30 +2073,28 @@
     "city": "Oceanside",
     "county": "San Diego",
     "day": "TH",
-    "schedule_text": "Weekly, Thursday",
+    "schedule_text": "Weekly, Thursdays",
     "schedule_rule": "weekly:TH",
     "listed_date": "2026-11-12",
     "signup_time": null,
     "start_time": "8:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/pourhouseoceanside/",
     "facebook": null,
     "website": "http://www.pourhouseoceanside.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=20322",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -2212,30 +2116,28 @@
     "city": "Los Angeles",
     "county": "Los Angeles",
     "day": "TH",
-    "schedule_text": "Weekly, Thursday",
+    "schedule_text": "Weekly, Thursdays",
     "schedule_rule": "weekly:TH",
     "listed_date": "2026-11-12",
     "signup_time": null,
     "start_time": "8:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/theworldstage/",
     "facebook": null,
     "website": "http://www.theworldstage.org/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=20323",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -2257,30 +2159,28 @@
     "city": "Long Beach",
     "county": "Los Angeles",
     "day": "MO",
-    "schedule_text": "Weekly, Monday",
+    "schedule_text": "Weekly, Mondays",
     "schedule_rule": "weekly:MO",
     "listed_date": "2026-11-09",
     "signup_time": null,
     "start_time": "7:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/gaslamplbc/",
     "facebook": null,
     "website": "http://gaslamplongbeach.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=20329",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -2302,30 +2202,28 @@
     "city": "Santa Monica",
     "county": "Los Angeles",
     "day": "MO",
-    "schedule_text": "Weekly, Monday",
+    "schedule_text": "Weekly, Mondays",
     "schedule_rule": "weekly:MO",
     "listed_date": "2026-11-09",
     "signup_time": null,
     "start_time": "9:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/harvellessm/",
     "facebook": null,
     "website": "http://santamonica.harvelles.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=20330",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -2347,30 +2245,28 @@
     "city": "Santee",
     "county": "San Diego",
     "day": "TH",
-    "schedule_text": "Weekly, Thursday",
+    "schedule_text": "Weekly, Thursdays",
     "schedule_rule": "weekly:TH",
     "listed_date": "2026-11-12",
     "signup_time": null,
     "start_time": "6:30 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": null,
     "facebook": null,
     "website": "http://kaffeemeister.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": "It is an all music open mic with fifteen minute time slots. Sign-ups start at 5:30 and we draw for time slots at 6:15. Music is from 6:30 to 9:30.",
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=2258",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -2392,30 +2288,28 @@
     "city": "Santa Monica",
     "county": "Los Angeles",
     "day": "FR",
-    "schedule_text": "Weekly, Friday",
+    "schedule_text": "Weekly, Fridays",
     "schedule_rule": "weekly:FR",
     "listed_date": "2026-11-13",
     "signup_time": null,
     "start_time": "7:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "$10 cover",
-    "host": null,
     "instagram": "https://www.instagram.com/unurbancoffeehouse/",
     "facebook": null,
     "website": "http://unurban.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=2531",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -2437,30 +2331,28 @@
     "city": "Huntington Beach",
     "county": "Orange",
     "day": "MO",
-    "schedule_text": "Weekly, Monday",
+    "schedule_text": "Weekly, Mondays",
     "schedule_rule": "weekly:MO",
     "listed_date": "2026-11-09",
     "signup_time": null,
     "start_time": "7:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/2nd_floor_hb/",
     "facebook": null,
     "website": "http://2ndfloorhb.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=27570",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -2482,30 +2374,28 @@
     "city": "Long Beach",
     "county": "Los Angeles",
     "day": "TH",
-    "schedule_text": "Weekly, Thursday",
+    "schedule_text": "Weekly, Thursdays",
     "schedule_rule": "weekly:TH",
     "listed_date": "2026-11-12",
     "signup_time": null,
     "start_time": "9:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": null,
     "facebook": null,
     "website": null,
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=27755",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -2527,30 +2417,28 @@
     "city": "Long Beach",
     "county": "Los Angeles",
     "day": "MO",
-    "schedule_text": "Weekly, Monday",
+    "schedule_text": "Weekly, Mondays",
     "schedule_rule": "weekly:MO",
     "listed_date": "2026-11-09",
     "signup_time": null,
     "start_time": "9:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/alexsbarlbc/",
     "facebook": null,
     "website": "http://www.alexsbar.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=27758",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -2572,30 +2460,28 @@
     "city": "Long Beach",
     "county": "Los Angeles",
     "day": "TH",
-    "schedule_text": "Weekly, Thursday",
+    "schedule_text": "Weekly, Thursdays",
     "schedule_rule": "weekly:TH",
     "listed_date": "2026-11-12",
     "signup_time": null,
     "start_time": "9:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": null,
     "facebook": null,
     "website": null,
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=27760",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -2617,30 +2503,28 @@
     "city": "Long Beach",
     "county": "Los Angeles",
     "day": "WE",
-    "schedule_text": "Weekly, Wednesday",
+    "schedule_text": "Weekly, Wednesdays",
     "schedule_rule": "weekly:WE",
     "listed_date": "2026-11-11",
     "signup_time": null,
     "start_time": "8:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/thestachebar/",
     "facebook": null,
     "website": "http://www.thestachebar.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=27765",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -2662,30 +2546,28 @@
     "city": "Long Beach",
     "county": "Los Angeles",
     "day": "TH",
-    "schedule_text": "Weekly, Thursday",
+    "schedule_text": "Weekly, Thursdays",
     "schedule_rule": "weekly:TH",
     "listed_date": "2026-11-12",
     "signup_time": null,
     "start_time": "10:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/queseralb/",
     "facebook": null,
     "website": "http://www.queseralb.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=27767",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -2707,30 +2589,28 @@
     "city": "Long Beach",
     "county": "Los Angeles",
     "day": "WE",
-    "schedule_text": "Weekly, Wednesday",
+    "schedule_text": "Weekly, Wednesdays",
     "schedule_rule": "weekly:WE",
     "listed_date": "2026-11-11",
     "signup_time": null,
     "start_time": "7:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": null,
     "facebook": null,
     "website": "http://www.theordinarie.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=27769",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -2752,30 +2632,28 @@
     "city": "San Diego",
     "county": "San Diego",
     "day": "FR",
-    "schedule_text": "Weekly, Friday",
+    "schedule_text": "Weekly, Fridays",
     "schedule_rule": "weekly:FR",
     "listed_date": "2026-11-13",
     "signup_time": null,
     "start_time": "4:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/casademariarestaurant/",
     "facebook": null,
     "website": "http://casademariarestaurant.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=28200",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -2797,30 +2675,28 @@
     "city": "Costa Mesa",
     "county": "Orange",
     "day": "MO",
-    "schedule_text": "Weekly, Monday",
+    "schedule_text": "Weekly, Mondays",
     "schedule_rule": "weekly:MO",
     "listed_date": "2026-11-09",
     "signup_time": null,
     "start_time": "8:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/theharpinn/",
     "facebook": null,
     "website": "http://www.harpinn.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=30483",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -2842,30 +2718,28 @@
     "city": "Long Beach",
     "county": "Los Angeles",
     "day": "TH",
-    "schedule_text": "Weekly, Thursday",
+    "schedule_text": "Weekly, Thursdays",
     "schedule_rule": "weekly:TH",
     "listed_date": "2026-11-12",
     "signup_time": null,
     "start_time": "8:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": null,
     "facebook": null,
     "website": null,
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=30484",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -2887,30 +2761,28 @@
     "city": "Irvine",
     "county": "Orange",
     "day": "TH",
-    "schedule_text": "Weekly, Thursday",
+    "schedule_text": "Weekly, Thursdays",
     "schedule_rule": "weekly:TH",
     "listed_date": "2026-11-12",
     "signup_time": null,
     "start_time": "6:30 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": null,
     "facebook": null,
     "website": "https://www.ocmusicdance.org/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=30532",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -2932,30 +2804,28 @@
     "city": "Culver City",
     "county": "Los Angeles",
     "day": "WE",
-    "schedule_text": "Weekly, Wednesday",
+    "schedule_text": "Weekly, Wednesdays",
     "schedule_rule": "weekly:WE",
     "listed_date": "2026-11-11",
     "signup_time": null,
     "start_time": "8:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/culverhotel/",
     "facebook": null,
     "website": "https://www.culverhotel.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=31046",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -2977,30 +2847,28 @@
     "city": "Solana Beach",
     "county": "San Diego",
     "day": "WE",
-    "schedule_text": "Weekly, Wednesday",
+    "schedule_text": "Weekly, Wednesdays",
     "schedule_rule": "weekly:WE",
     "listed_date": "2026-11-11",
     "signup_time": null,
     "start_time": "8:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/bellyuptavern/",
     "facebook": null,
     "website": "http://www.bellyup.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=31311",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -3022,30 +2890,28 @@
     "city": "Riverside",
     "county": "Riverside",
     "day": "WE",
-    "schedule_text": "Weekly, Wednesday",
+    "schedule_text": "Weekly, Wednesdays",
     "schedule_rule": "weekly:WE",
     "listed_date": "2026-11-11",
     "signup_time": null,
     "start_time": "7:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/foxriverside///",
     "facebook": null,
     "website": "https://www.foxriverside.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=31337",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -3067,30 +2933,28 @@
     "city": "Los Angeles",
     "county": "Los Angeles",
     "day": "WE",
-    "schedule_text": "Weekly, Wednesday",
+    "schedule_text": "Weekly, Wednesdays",
     "schedule_rule": "weekly:WE",
     "listed_date": "2026-11-11",
     "signup_time": null,
     "start_time": "8:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/thevirgilbar/",
     "facebook": null,
     "website": "http://www.thevirgil.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=31653",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -3112,30 +2976,28 @@
     "city": "Anaheim",
     "county": "Orange",
     "day": "WE",
-    "schedule_text": "Weekly, Wednesday",
+    "schedule_text": "Weekly, Wednesdays",
     "schedule_rule": "weekly:WE",
     "listed_date": "2026-11-11",
     "signup_time": null,
     "start_time": "8:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/centerstanaheim/",
     "facebook": null,
     "website": "https://www.centerstreetanaheim.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=31719",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -3157,30 +3019,28 @@
     "city": "Pasadena",
     "county": "Los Angeles",
     "day": "WE",
-    "schedule_text": "Weekly, Wednesday",
+    "schedule_text": "Weekly, Wednesdays",
     "schedule_rule": "weekly:WE",
     "listed_date": "2026-11-11",
     "signup_time": null,
     "start_time": "8:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": null,
     "facebook": null,
     "website": "http://www.theblinddonkey.com/pasadena",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=31811",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -3202,30 +3062,28 @@
     "city": "Los Angeles",
     "county": "Los Angeles",
     "day": "TU",
-    "schedule_text": "Weekly, Tuesday",
+    "schedule_text": "Weekly, Tuesdays",
     "schedule_rule": "weekly:TU",
     "listed_date": "2026-11-10",
     "signup_time": null,
     "start_time": "7:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/thehotelcafe/",
     "facebook": null,
     "website": "http://www.hotelcafe.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=31923",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -3247,30 +3105,28 @@
     "city": "San Marcos",
     "county": "San Diego",
     "day": "TH",
-    "schedule_text": "Weekly, Thursday",
+    "schedule_text": "Weekly, Thursdays",
     "schedule_rule": "weekly:TH",
     "listed_date": "2026-11-12",
     "signup_time": null,
     "start_time": "7:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": null,
     "facebook": null,
     "website": "http://churchillspub.us/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=31987",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -3292,30 +3148,28 @@
     "city": "Pasadena",
     "county": "Los Angeles",
     "day": "TH",
-    "schedule_text": "Weekly, Thursday",
+    "schedule_text": "Weekly, Thursdays",
     "schedule_rule": "weekly:TH",
     "listed_date": "2026-11-12",
     "signup_time": null,
     "start_time": "7:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": null,
     "facebook": null,
     "website": "http://www.thederwolfpasadena.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=31993",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -3337,30 +3191,28 @@
     "city": "Hermosa Beach",
     "county": "Los Angeles",
     "day": "WE",
-    "schedule_text": "Weekly, Wednesday",
+    "schedule_text": "Weekly, Wednesdays",
     "schedule_rule": "weekly:WE",
     "listed_date": "2026-11-11",
     "signup_time": null,
     "start_time": "7:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/thelighthousecafe/",
     "facebook": null,
     "website": "http://thelighthousecafe.net/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=32171",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -3382,30 +3234,28 @@
     "city": "Solana Beach",
     "county": "San Diego",
     "day": "TH",
-    "schedule_text": "Weekly, Thursday",
+    "schedule_text": "Weekly, Thursdays",
     "schedule_rule": "weekly:TH",
     "listed_date": "2026-11-12",
     "signup_time": null,
     "start_time": "7:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/culturebrewingco/",
     "facebook": null,
     "website": "http://www.culturebrewingco.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=32236",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -3427,30 +3277,28 @@
     "city": "La Mesa",
     "county": "San Diego",
     "day": "TH",
-    "schedule_text": "Weekly, Thursday",
+    "schedule_text": "Weekly, Thursdays",
     "schedule_rule": "weekly:TH",
     "listed_date": "2026-11-12",
     "signup_time": null,
     "start_time": "7:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/theregalbarlamesa/",
     "facebook": null,
     "website": "http://www.theregalbar.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=32273",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -3472,30 +3320,28 @@
     "city": "Santa Monica",
     "county": "Los Angeles",
     "day": "MO",
-    "schedule_text": "Weekly, Monday",
+    "schedule_text": "Weekly, Mondays",
     "schedule_rule": "weekly:MO",
     "listed_date": "2026-11-09",
     "signup_time": null,
     "start_time": "8:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/tripsantamonica_/",
     "facebook": null,
     "website": "http://www.tripsantamonica.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=32753",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -3517,30 +3363,28 @@
     "city": "Long Beach",
     "county": "Los Angeles",
     "day": "SA",
-    "schedule_text": "Weekly, Saturday",
+    "schedule_text": "Weekly, Saturdays",
     "schedule_rule": "weekly:SA",
     "listed_date": "2026-11-07",
     "signup_time": null,
     "start_time": "8:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Paid",
-    "host": null,
     "instagram": null,
     "facebook": null,
     "website": null,
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": "$5 for 5 minutes, but only $3 for any additional peeps who go with you. Tea is offered, and there is a chance you get to go up twice.",
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=3323",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -3562,30 +3406,28 @@
     "city": "Seal Beach",
     "county": "Orange",
     "day": "TU",
-    "schedule_text": "Weekly, Tuesday",
+    "schedule_text": "Weekly, Tuesdays",
     "schedule_rule": "weekly:TU",
     "listed_date": "2026-11-10",
     "signup_time": null,
     "start_time": "7:30 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/bogartscoffee/",
     "facebook": null,
     "website": "http://www.bogartscoffee.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": "Owner of venue is Joanne. She will answer emails. Lineup is signup sheet, so get there early. Clean room.",
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=3328",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -3607,30 +3449,28 @@
     "city": "Encinitas",
     "county": "San Diego",
     "day": "WE",
-    "schedule_text": "Weekly, Wednesday",
+    "schedule_text": "Weekly, Wednesdays",
     "schedule_rule": "weekly:WE",
     "listed_date": "2026-11-11",
     "signup_time": null,
     "start_time": "7:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/unionkitchentap/",
     "facebook": null,
     "website": "https://localunion101.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=33326",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -3652,30 +3492,28 @@
     "city": "Torrance",
     "county": "Los Angeles",
     "day": "TH",
-    "schedule_text": "Weekly, Thursday",
+    "schedule_text": "Weekly, Thursdays",
     "schedule_rule": "weekly:TH",
     "listed_date": "2026-11-12",
     "signup_time": null,
     "start_time": "7:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/thecrestsportsbar/",
     "facebook": null,
     "website": "http://thecrestsportsbarandgrill.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=33872",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -3697,30 +3535,28 @@
     "city": "Seal Beach",
     "county": "Orange",
     "day": "TH",
-    "schedule_text": "Weekly, Thursday",
+    "schedule_text": "Weekly, Thursdays",
     "schedule_rule": "weekly:TH",
     "listed_date": "2026-11-12",
     "signup_time": null,
     "start_time": "7:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": null,
     "facebook": null,
     "website": "https://spaghettini.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=34363",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -3742,35 +3578,33 @@
     "city": "Riverside",
     "county": "Riverside",
     "day": "TH",
-    "schedule_text": "Weekly, Thursday",
+    "schedule_text": "Weekly, Thursdays",
     "schedule_rule": "weekly:TH",
     "listed_date": "2026-11-12",
     "signup_time": null,
     "start_time": "7:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": null,
     "facebook": null,
     "website": "https://www.lakealicetradingco.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=34484",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      },
      {
       "url": "https://badslava.com/details.php?id=35466",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -3792,30 +3626,28 @@
     "city": "Anaheim",
     "county": "Orange",
     "day": "TH",
-    "schedule_text": "Weekly, Thursday",
+    "schedule_text": "Weekly, Thursdays",
     "schedule_rule": "weekly:TH",
     "listed_date": "2026-11-12",
     "signup_time": null,
     "start_time": "7:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/thefifthoc/",
     "facebook": null,
     "website": "http://www.thefifthoc.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=34635",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -3837,30 +3669,28 @@
     "city": "Santee",
     "county": "San Diego",
     "day": "TH",
-    "schedule_text": "Weekly, Thursday",
+    "schedule_text": "Weekly, Thursdays",
     "schedule_rule": "weekly:TH",
     "listed_date": "2026-11-12",
     "signup_time": null,
     "start_time": "7:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/santeecoffeecorner/",
     "facebook": null,
     "website": "http://www.santeecoffeecorner.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=34950",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -3882,30 +3712,28 @@
     "city": "Sherman Oaks",
     "county": "Los Angeles",
     "day": "WE",
-    "schedule_text": "Weekly, Wednesday",
+    "schedule_text": "Weekly, Wednesdays",
     "schedule_rule": "weekly:WE",
     "listed_date": "2026-11-11",
     "signup_time": null,
     "start_time": "7:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": null,
     "facebook": null,
     "website": "http://www.thewoodmanla.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=35019",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -3927,30 +3755,28 @@
     "city": "Santee",
     "county": "San Diego",
     "day": "FR",
-    "schedule_text": "Weekly, Friday",
+    "schedule_text": "Weekly, Fridays",
     "schedule_rule": "weekly:FR",
     "listed_date": "2026-11-13",
     "signup_time": null,
     "start_time": "7:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/santeecoffeecorner/",
     "facebook": null,
     "website": "http://www.santeecoffeecorner.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=35088",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -3972,30 +3798,28 @@
     "city": "Hermosa Beach",
     "county": "Los Angeles",
     "day": "WE",
-    "schedule_text": "Weekly, Wednesday",
+    "schedule_text": "Weekly, Wednesdays",
     "schedule_rule": "weekly:WE",
     "listed_date": "2026-11-11",
     "signup_time": null,
     "start_time": "7:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/saintrocke/",
     "facebook": null,
     "website": "https://saintrocke.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=35306",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -4017,30 +3841,28 @@
     "city": "La Mesa",
     "county": "San Diego",
     "day": "TH",
-    "schedule_text": "Weekly, Thursday",
+    "schedule_text": "Weekly, Thursdays",
     "schedule_rule": "weekly:TH",
     "listed_date": "2026-11-12",
     "signup_time": null,
     "start_time": "7:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/rivierasupperclub/",
     "facebook": null,
     "website": "https://rivierasupperclub.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=35553",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -4062,30 +3884,28 @@
     "city": "Inglewood",
     "county": "Los Angeles",
     "day": "TH",
-    "schedule_text": "Weekly, Thursday",
+    "schedule_text": "Weekly, Thursdays",
     "schedule_rule": "weekly:TH",
     "listed_date": "2026-11-12",
     "signup_time": null,
     "start_time": "7:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": null,
     "facebook": null,
     "website": "https://www.casagaminocentury.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=35783",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -4107,30 +3927,28 @@
     "city": "Chula Vista",
     "county": "San Diego",
     "day": "TH",
-    "schedule_text": "Weekly, Thursday",
+    "schedule_text": "Weekly, Thursdays",
     "schedule_rule": "weekly:TH",
     "listed_date": "2026-11-12",
     "signup_time": null,
     "start_time": "7:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/manhattanbar91910/",
     "facebook": null,
     "website": "http://manhattanbar91910.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=36225",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -4152,30 +3970,28 @@
     "city": "Sherman Oaks",
     "county": "Los Angeles",
     "day": "TH",
-    "schedule_text": "Weekly, Thursday",
+    "schedule_text": "Weekly, Thursdays",
     "schedule_rule": "weekly:TH",
     "listed_date": "2026-11-12",
     "signup_time": null,
     "start_time": "7:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/willtylerjames/",
     "facebook": null,
     "website": "http://theoakstavern.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=36499",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -4197,30 +4013,28 @@
     "city": "Inglewood",
     "county": "Los Angeles",
     "day": "TH",
-    "schedule_text": "Weekly, Thursday",
+    "schedule_text": "Weekly, Thursdays",
     "schedule_rule": "weekly:TH",
     "listed_date": "2026-11-12",
     "signup_time": null,
     "start_time": "7:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/laartiststudios/",
     "facebook": null,
     "website": "http://1019west.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=36774",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -4242,30 +4056,28 @@
     "city": "Seal Beach",
     "county": "Orange",
     "day": "TH",
-    "schedule_text": "Weekly, Thursday",
+    "schedule_text": "Weekly, Thursdays",
     "schedule_rule": "weekly:TH",
     "listed_date": "2026-11-12",
     "signup_time": null,
     "start_time": "7:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": null,
     "facebook": null,
     "website": "https://www.thehangoutrestaurant.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=36851",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -4287,30 +4099,28 @@
     "city": "Fullerton",
     "county": "Orange",
     "day": "SU",
-    "schedule_text": "Weekly, Sunday",
+    "schedule_text": "Weekly, Sundays",
     "schedule_rule": "weekly:SU",
     "listed_date": "2026-11-08",
     "signup_time": null,
     "start_time": "7:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/groundzero_openmic/",
     "facebook": null,
     "website": "http://www.thevilladelsol.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=36859",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -4332,30 +4142,28 @@
     "city": "Encinitas",
     "county": "San Diego",
     "day": "TH",
-    "schedule_text": "Weekly, Thursday",
+    "schedule_text": "Weekly, Thursdays",
     "schedule_rule": "weekly:TH",
     "listed_date": "2026-11-12",
     "signup_time": null,
     "start_time": "7:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/saloon_encinitas/",
     "facebook": null,
     "website": "http://www.saloonencinitas.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=37039",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -4377,30 +4185,28 @@
     "city": "Inglewood",
     "county": "Los Angeles",
     "day": "TH",
-    "schedule_text": "Weekly, Thursday",
+    "schedule_text": "Weekly, Thursdays",
     "schedule_rule": "weekly:TH",
     "listed_date": "2026-11-12",
     "signup_time": null,
     "start_time": "7:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/savoyinglewood/",
     "facebook": null,
     "website": "http://www.thesavoyentertainmentcenter.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=37113",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -4422,30 +4228,28 @@
     "city": "Long Beach",
     "county": "Los Angeles",
     "day": "TH",
-    "schedule_text": "Weekly, Thursday",
+    "schedule_text": "Weekly, Thursdays",
     "schedule_rule": "weekly:TH",
     "listed_date": "2026-11-12",
     "signup_time": null,
     "start_time": "7:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/exhibitionroom/",
     "facebook": null,
     "website": "http://www.theexhibitionroom.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=37221",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -4467,30 +4271,28 @@
     "city": "Culver City",
     "county": "Los Angeles",
     "day": "WE",
-    "schedule_text": "Weekly, Wednesday",
+    "schedule_text": "Weekly, Wednesdays",
     "schedule_rule": "weekly:WE",
     "listed_date": "2026-11-11",
     "signup_time": null,
     "start_time": "8:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/p/DBuPxyoT1f8/",
     "facebook": null,
     "website": "http://www.thecinemabar.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=37435",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -4512,30 +4314,28 @@
     "city": null,
     "county": "Orange",
     "day": "TH",
-    "schedule_text": "Weekly, Thursday",
+    "schedule_text": "Weekly, Thursdays",
     "schedule_rule": "weekly:TH",
     "listed_date": "2026-11-12",
     "signup_time": null,
     "start_time": "7:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/improvcomedyclubs/",
     "facebook": null,
     "website": "http://improv.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=37623",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -4557,30 +4357,28 @@
     "city": "Chula Vista",
     "county": "San Diego",
     "day": "TH",
-    "schedule_text": "Weekly, Thursday",
+    "schedule_text": "Weekly, Thursdays",
     "schedule_rule": "weekly:TH",
     "listed_date": "2026-11-12",
     "signup_time": null,
     "start_time": "7:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": null,
     "facebook": null,
     "website": "https://www.labellas.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=37705",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -4602,30 +4400,28 @@
     "city": "Torrance",
     "county": "Los Angeles",
     "day": "TH",
-    "schedule_text": "Weekly, Thursday",
+    "schedule_text": "Weekly, Thursdays",
     "schedule_rule": "weekly:TH",
     "listed_date": "2026-11-12",
     "signup_time": null,
     "start_time": "7:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/redcarbrewery/",
     "facebook": null,
     "website": "http://www.redcarbrewery.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=37905",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -4647,35 +4443,33 @@
     "city": "Fullerton",
     "county": "Orange",
     "day": "TH",
-    "schedule_text": "Weekly, Thursday",
+    "schedule_text": "Weekly, Thursdays",
     "schedule_rule": "weekly:TH",
     "listed_date": "2026-11-12",
     "signup_time": null,
     "start_time": "7:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/madero_1899/",
     "facebook": null,
     "website": "http://madero1899.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=37987",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      },
      {
       "url": "https://badslava.com/details.php?id=20316",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -4697,30 +4491,28 @@
     "city": "Long Beach",
     "county": "Los Angeles",
     "day": "WE",
-    "schedule_text": "Weekly, Wednesday",
+    "schedule_text": "Weekly, Wednesdays",
     "schedule_rule": "weekly:WE",
     "listed_date": "2026-11-11",
     "signup_time": null,
     "start_time": "7:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/thelibrarycoffee/",
     "facebook": null,
     "website": "https://www.thelibrarycoffee.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=38113",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -4742,30 +4534,28 @@
     "city": "Downey",
     "county": "Los Angeles",
     "day": "TH",
-    "schedule_text": "Weekly, Thursday",
+    "schedule_text": "Weekly, Thursdays",
     "schedule_rule": "weekly:TH",
     "listed_date": "2026-11-12",
     "signup_time": null,
     "start_time": "7:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/theepicloungedowney/",
     "facebook": null,
     "website": "https://theepicloungedowney.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=38170",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -4787,30 +4577,28 @@
     "city": "Long Beach",
     "county": "Los Angeles",
     "day": "TH",
-    "schedule_text": "Weekly, Thursday",
+    "schedule_text": "Weekly, Thursdays",
     "schedule_rule": "weekly:TH",
     "listed_date": "2026-11-12",
     "signup_time": null,
     "start_time": "7:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/thestachebar/",
     "facebook": null,
     "website": "http://www.thestachebar.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=38359",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -4832,30 +4620,28 @@
     "city": "Chula Vista",
     "county": "San Diego",
     "day": "WE",
-    "schedule_text": "Weekly, Wednesday",
+    "schedule_text": "Weekly, Wednesdays",
     "schedule_rule": "weekly:WE",
     "listed_date": "2026-11-11",
     "signup_time": null,
     "start_time": "7:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/manhattanbar91910/",
     "facebook": null,
     "website": "http://manhattanbar91910.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=38406",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -4877,30 +4663,28 @@
     "city": "Hermosa Beach",
     "county": "Los Angeles",
     "day": "TH",
-    "schedule_text": "Weekly, Thursday",
+    "schedule_text": "Weekly, Thursdays",
     "schedule_rule": "weekly:TH",
     "listed_date": "2026-11-12",
     "signup_time": null,
     "start_time": "7:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": null,
     "facebook": null,
     "website": "http://www.thecomedyandmagicclub.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=38412",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -4922,30 +4706,28 @@
     "city": "Downey",
     "county": "Los Angeles",
     "day": "TH",
-    "schedule_text": "Weekly, Thursday",
+    "schedule_text": "Weekly, Thursdays",
     "schedule_rule": "weekly:TH",
     "listed_date": "2026-11-12",
     "signup_time": null,
     "start_time": "7:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": null,
     "facebook": null,
     "website": null,
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=38447",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -4967,30 +4749,28 @@
     "city": "Los Angeles",
     "county": "Los Angeles",
     "day": "TU",
-    "schedule_text": "Weekly, Tuesday",
+    "schedule_text": "Weekly, Tuesdays",
     "schedule_rule": "weekly:TU",
     "listed_date": "2026-11-10",
     "signup_time": null,
     "start_time": "9:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/dapoetrylounge_co/",
     "facebook": null,
     "website": "http://greenwaycourttheatre.org/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=38670",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -5012,30 +4792,28 @@
     "city": "San Pedro",
     "county": "Los Angeles",
     "day": "TH",
-    "schedule_text": "Monthly, Thursday",
+    "schedule_text": "Thursdays, dates vary",
     "schedule_rule": "irregular",
     "listed_date": "2026-11-12",
     "signup_time": null,
     "start_time": "7:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Paid",
-    "host": null,
     "instagram": "https://www.instagram.com/grandannex/",
     "facebook": null,
     "website": "https://grandvision.org/events-tickets/grand-annex/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": "All ages",
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=38681",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -5057,30 +4835,28 @@
     "city": "Culver City",
     "county": "Los Angeles",
     "day": "TU",
-    "schedule_text": "Weekly, Tuesday",
+    "schedule_text": "Weekly, Tuesdays",
     "schedule_rule": "weekly:TU",
     "listed_date": "2026-11-10",
     "signup_time": null,
     "start_time": "9:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": null,
     "facebook": null,
     "website": "http://industrycafejazz.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": "It is free, but there is a suggested $5 donation",
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=4247",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -5102,30 +4878,28 @@
     "city": "Long Beach",
     "county": "Los Angeles",
     "day": "TU",
-    "schedule_text": "Weekly, Tuesday",
+    "schedule_text": "Weekly, Tuesdays",
     "schedule_rule": "weekly:TU",
     "listed_date": "2026-11-10",
     "signup_time": null,
     "start_time": "9:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/dipiazzas_live/",
     "facebook": null,
     "website": "http://www.dipiazzas.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=4264",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -5147,30 +4921,28 @@
     "city": "Long Beach",
     "county": "Los Angeles",
     "day": "TH",
-    "schedule_text": "Weekly, Thursday",
+    "schedule_text": "Weekly, Thursdays",
     "schedule_rule": "weekly:TH",
     "listed_date": "2026-11-12",
     "signup_time": null,
     "start_time": "9:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/thelibrarycoffee/",
     "facebook": null,
     "website": "https://www.thelibrarycoffee.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": "Sign up 8:30, show starts 9pm",
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=4315",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -5192,30 +4964,28 @@
     "city": "Costa Mesa",
     "county": "Orange",
     "day": "FR",
-    "schedule_text": "Weekly, Friday",
+    "schedule_text": "Weekly, Fridays",
     "schedule_rule": "weekly:FR",
     "listed_date": "2026-11-13",
     "signup_time": null,
     "start_time": "6:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/dencafeoc/",
     "facebook": null,
     "website": "http://www.east-borough.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": "Music only",
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=43401",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -5237,30 +5007,28 @@
     "city": "Los Angeles",
     "county": "Los Angeles",
     "day": "TU",
-    "schedule_text": "Weekly, Tuesday",
+    "schedule_text": "Weekly, Tuesdays",
     "schedule_rule": "weekly:TU",
     "listed_date": "2026-11-10",
     "signup_time": null,
     "start_time": "8:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/thefable.la/",
     "facebook": null,
     "website": "http://thefable.la/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": "Music only",
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=47408",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -5282,30 +5050,28 @@
     "city": "Los Angeles",
     "county": "Los Angeles",
     "day": "WE",
-    "schedule_text": "Weekly, Wednesday",
+    "schedule_text": "Weekly, Wednesdays",
     "schedule_rule": "weekly:WE",
     "listed_date": "2026-11-11",
     "signup_time": null,
     "start_time": "4:30 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "1 item minimum",
-    "host": null,
     "instagram": "https://www.instagram.com/lyrichyperion/",
     "facebook": null,
     "website": "http://www.lyrichyperion.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": "Music only",
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=48570",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -5327,30 +5093,28 @@
     "city": "Encinitas",
     "county": "San Diego",
     "day": "TU",
-    "schedule_text": "Weekly, Tuesday",
+    "schedule_text": "Weekly, Tuesdays",
     "schedule_rule": "weekly:TU",
     "listed_date": "2026-11-10",
     "signup_time": null,
     "start_time": "9:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": null,
     "facebook": null,
     "website": "http://www.1ststreetbar.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=5292",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -5372,30 +5136,28 @@
     "city": "Vista",
     "county": "San Diego",
     "day": "TH",
-    "schedule_text": "Weekly, Thursday",
+    "schedule_text": "Weekly, Thursdays",
     "schedule_rule": "weekly:TH",
     "listed_date": "2026-11-12",
     "signup_time": null,
     "start_time": "6:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": null,
     "facebook": null,
     "website": "http://aztecbrewery.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": "Signup 5pm",
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=5298",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -5417,30 +5179,28 @@
     "city": null,
     "county": "San Diego",
     "day": "SU",
-    "schedule_text": "Bi-Weekly, Sunday",
+    "schedule_text": "Every other Sunday",
     "schedule_rule": "biweekly:SU",
     "listed_date": "2026-11-08",
     "signup_time": null,
     "start_time": "3:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/birdrockcoffeeroasters/",
     "facebook": null,
     "website": "http://www.birdrockcoffee.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": "1st and 3rd Sunday only. 2:45pm signup",
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=5302",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -5462,30 +5222,28 @@
     "city": "Escondido",
     "county": "San Diego",
     "day": "TH",
-    "schedule_text": "Weekly, Thursday",
+    "schedule_text": "Weekly, Thursdays",
     "schedule_rule": "weekly:TH",
     "listed_date": "2026-11-12",
     "signup_time": null,
     "start_time": "6:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": null,
     "facebook": null,
     "website": "http://www.thekettleon.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": "5:30pm signup",
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=5309",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -5507,30 +5265,28 @@
     "city": "San Diego",
     "county": "San Diego",
     "day": "TH",
-    "schedule_text": "Bi-Weekly, Thursday",
+    "schedule_text": "Every other Thursday",
     "schedule_rule": "biweekly:TH",
     "listed_date": "2026-11-12",
     "signup_time": null,
     "start_time": "7:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "$5 cover",
-    "host": null,
     "instagram": "https://www.instagram.com/queenbeessd/",
     "facebook": null,
     "website": "https://www.queenbeessd.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": "Every 1st and 3rd Thursday of the month",
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=5314",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -5552,30 +5308,28 @@
     "city": "Long Beach",
     "county": "Los Angeles",
     "day": "MO",
-    "schedule_text": "Weekly, Monday",
+    "schedule_text": "Weekly, Mondays",
     "schedule_rule": "weekly:MO",
     "listed_date": "2026-11-09",
     "signup_time": null,
     "start_time": "7:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/roxannesbar/",
     "facebook": null,
     "website": "https://rox.bar/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": "Signup 6:30pm",
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=7357",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -5597,30 +5351,28 @@
     "city": "Long Beach",
     "county": "Los Angeles",
     "day": "TU",
-    "schedule_text": "Weekly, Tuesday",
+    "schedule_text": "Weekly, Tuesdays",
     "schedule_rule": "weekly:TU",
     "listed_date": "2026-11-10",
     "signup_time": null,
     "start_time": "8:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/oletapasbarlbc/",
     "facebook": null,
     "website": "https://www.oletapasbarlbc.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": "7:30 signup.",
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=7360",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -5642,30 +5394,28 @@
     "city": "Huntington Beach",
     "county": "Orange",
     "day": "TU",
-    "schedule_text": "Weekly, Tuesday",
+    "schedule_text": "Weekly, Tuesdays",
     "schedule_rule": "weekly:TU",
     "listed_date": "2026-11-10",
     "signup_time": null,
     "start_time": "9:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/mysticwaterkavabar/",
     "facebook": null,
     "website": "https://www.mysticwaterkavabar.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": "Signup 8pm.",
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=7382",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -5687,30 +5437,28 @@
     "city": "Los Angeles",
     "county": "Los Angeles",
     "day": "TU",
-    "schedule_text": "Weekly, Tuesday",
+    "schedule_text": "Weekly, Tuesdays",
     "schedule_rule": "weekly:TU",
     "listed_date": "2026-11-10",
     "signup_time": null,
     "start_time": "8:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/silverlakelounge_ww/",
     "facebook": null,
     "website": "http://thesilverlakelounge.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=8125",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -5732,30 +5480,28 @@
     "city": "Santee",
     "county": "San Diego",
     "day": "SA",
-    "schedule_text": "Weekly, Saturday",
+    "schedule_text": "Weekly, Saturdays",
     "schedule_rule": "weekly:SA",
     "listed_date": "2026-11-07",
     "signup_time": null,
     "start_time": "12:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": null,
     "facebook": null,
     "website": null,
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=8721",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -5777,30 +5523,28 @@
     "city": "Inglewood",
     "county": "Los Angeles",
     "day": "TU",
-    "schedule_text": "Weekly, Tuesday",
+    "schedule_text": "Weekly, Tuesdays",
     "schedule_rule": "weekly:TU",
     "listed_date": "2026-11-10",
     "signup_time": null,
     "start_time": "7:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Paid",
-    "host": null,
     "instagram": null,
     "facebook": null,
     "website": null,
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": "$5 to perform, $1 more for additional minute. Signup is 6:30pm.",
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=8873",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -5822,30 +5566,28 @@
     "city": "Santa Ana",
     "county": "Orange",
     "day": "SA",
-    "schedule_text": "Monthly, Saturday",
+    "schedule_text": "Saturdays, dates vary",
     "schedule_rule": "irregular",
     "listed_date": "2026-11-07",
     "signup_time": null,
     "start_time": "8:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/artavantgarden/",
     "facebook": null,
     "website": "http://www.avantgardenoc.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": "Signup 6:30pm. Takes place the Fri before the first Sat of the month.",
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=9294",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -5867,30 +5609,28 @@
     "city": "Long Beach",
     "county": "Los Angeles",
     "day": "FR",
-    "schedule_text": "Monthly, Friday",
+    "schedule_text": "Fridays, dates vary",
     "schedule_rule": "irregular",
     "listed_date": "2026-11-13",
     "signup_time": null,
     "start_time": "7:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/confidential_coffee/",
     "facebook": null,
     "website": "http://www.confidentialcoffee.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": "2nd Friday. Sign up in shop. Pupusas for sale",
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=9425",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -5912,30 +5652,28 @@
     "city": "Long Beach",
     "county": "Los Angeles",
     "day": "TU",
-    "schedule_text": "Weekly, Tuesday",
+    "schedule_text": "Weekly, Tuesdays",
     "schedule_rule": "weekly:TU",
     "listed_date": "2026-11-10",
     "signup_time": null,
     "start_time": "8:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/roscoesofficial/",
     "facebook": null,
     "website": "https://www.roscoeschickenandwaffles.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": null,
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=9968",
       "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -5957,35 +5695,33 @@
     "city": "Pomona",
     "county": "Los Angeles",
     "day": "FR",
-    "schedule_text": "Every Fourth Friday 6:30pm-8pm (LA Literature); a search excerpt of Eventbrite said first Friday (conflict)",
+    "schedule_text": "4th Friday of the month",
     "schedule_rule": "monthly:4FR",
     "listed_date": null,
     "signup_time": null,
     "start_time": "6:30 PM",
     "end_time": "8:00 PM",
-    "signup_method": null,
     "format": "mixed",
     "slot": null,
     "backline": null,
     "ages": "all",
-    "cost": "free (Eventbrite excerpt, not in capture)",
-    "host": "Cafe con Libros Press",
+    "cost": "Free",
     "instagram": null,
     "facebook": "https://www.facebook.com/cafeconlibrospress/",
     "website": null,
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": "Mostly LGBTQIA poetry/music community night; music slots implied by the description but not explicit. Eventbrite 'Event ended' refers to the listed dates, not necessarily the series. Ages 'all' comes from a search excerpt, not the capture. Verify on Facebook.",
+    "times_vary": true,
     "sources": [
      {
       "url": "https://losangelesliterature.com/literary-venues/open-mics/",
       "date": null,
-      "label": "\"Celebrating the family we create throug"
+      "label": "losangelesliterature.com"
      },
      {
       "url": "https://www.eventbrite.com/e/queer-trans-open-mic-tickets-1475496984199",
       "date": null,
-      "label": "\"Event ended\" (Eventbrite page shell, or"
+      "label": "eventbrite.com"
      }
     ]
    }
@@ -6007,30 +5743,28 @@
     "city": "Pomona",
     "county": "Los Angeles",
     "day": "SA",
-    "schedule_text": "Every Second Saturday during the Pomona Art Walk, 7:30pm",
+    "schedule_text": "2nd Saturday of the month",
     "schedule_rule": "monthly:2SA",
     "listed_date": null,
     "signup_time": null,
     "start_time": "7:30 PM",
     "end_time": null,
-    "signup_method": null,
     "format": "mixed",
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": null,
-    "host": "Consuelo (poet)",
     "instagram": "https://www.instagram.com/p/DYx1TvDhHe4/",
     "facebook": "https://www.facebook.com/cafeconlibrospress/",
     "website": null,
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": "Second Saturday monthly, set to irregular because 2SA is not in the rule vocabulary. Poetry-leaning, songs welcome. Undated directory entry; the linked Instagram post is a lead for Chrome.",
+    "times_vary": false,
     "sources": [
      {
       "url": "https://losangelesliterature.com/literary-venues/open-mics/",
       "date": null,
-      "label": "bring your poems, songs, and vibes to Ca"
+      "label": "losangelesliterature.com"
      }
     ]
    }
@@ -6048,54 +5782,52 @@
     "id": "chino-hills-art-gallery-open-mic",
     "name": "Open Mic Night at the Downtown Art Gallery",
     "venue": "Chino Hills Community Foundation Downtown Art Gallery, The Shoppes at Chino Hills",
-    "address": "The Shops at Chino Hills, Suite 4020 (between Bed Bath & Beyond and Seven Leaves Cafe), Chino Hills, CA 91709",
+    "address": "The Shops at Chino Hills, Suite 4020, Chino Hills, CA 91709",
     "city": "Chino Hills",
     "county": "San Bernardino",
     "day": "FR",
-    "schedule_text": "Roughly monthly, usually Friday evenings; dated listings Fri Feb 20, a mid-March date, and Fri Jun 19 2026 (a search snippet said Thu Jun 18)",
+    "schedule_text": "About monthly, Fridays",
     "schedule_rule": "irregular",
     "listed_date": null,
     "signup_time": "6:00 PM",
     "start_time": "7:00 PM",
     "end_time": null,
-    "signup_method": "In person, sign-ups start at 6 pm",
     "format": "mixed",
     "slot": null,
     "backline": null,
     "ages": "all",
     "cost": "Free",
-    "host": "Chino Hills Community Foundation",
     "instagram": "https://www.instagram.com/p/DTN1vS3FBAE/ (lead, post only; account not identified)",
     "facebook": null,
     "website": null,
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": "Run by the Chino Hills Community Foundation gallery: music, poetry, comedy, magic; family friendly. Posts seen for Jan 16 and Jun 19, 2026; nothing newer found on the Shops' Instagram (checked 2026-11-07). Confirm before going.",
+    "times_vary": true,
     "sources": [
      {
       "url": "https://www.championnewspapers.com/community_news/article_271ec0c7-70c8-4d9b-b4a0-db51fb647ff5.html",
       "date": "2026-06-19",
-      "label": "Announces the Fri Jun 19 night: \"Signups"
+      "label": "championnewspapers.com"
      },
      {
       "url": "https://www.championnewspapers.com/community_news/article_ac649457-8a07-4f9c-b425-5c74e995b9ad.html",
       "date": "2026-06-13",
-      "label": "Week-ahead calendar: \"7 p.m., Chino Hill"
+      "label": "championnewspapers.com"
      },
      {
       "url": "https://www.championnewspapers.com/community_news/article_2c733425-b839-4ccd-a688-9f446480ea7c.html",
       "date": "2026-02-20",
-      "label": "Feb 20 notice: \"Any type of talent is we"
+      "label": "championnewspapers.com"
      },
      {
       "url": "https://www.championnewspapers.com/community_news/article_63c63a3f-22a6-4771-b599-d757d0856aa6.html",
       "date": "2026-03-14",
-      "label": "Week-ahead calendar for Mar 14 to 21: \"s"
+      "label": "championnewspapers.com"
      },
      {
       "url": "https://www.championnewspapers.com/special_section/article_1218d139-cf41-4c79-bf6a-9dd11870c1c6.html",
       "date": "2026-06-06",
-      "label": "Gallery profile: \"added events such as p"
+      "label": "championnewspapers.com"
      }
     ]
    }
@@ -6117,40 +5849,33 @@
     "city": "Corona",
     "county": "Riverside",
     "day": "WE",
-    "schedule_text": "Wednesdays 6:30pm, weekly (Badslava, undated)",
+    "schedule_text": "Weekly, Wednesdays",
     "schedule_rule": "weekly:WE",
     "listed_date": null,
     "signup_time": null,
     "start_time": "6:30 PM",
     "end_time": null,
-    "signup_method": null,
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/city_of_corona/",
     "facebook": null,
     "website": "https://www.coronaca.gov/government/departments/library",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": "format unknown; may be poetry or music. Older Equilux series ('open mics fourth Friday', adults 18+, acoustic/spoken word/comedy) at the same address was suspended March 2020 per a search snippet from inlandiainstitute.org/my-calendar/?mc_id=856; that page is now down (capture src_a9155aa5 is an outage notice). Verify with library, (951) 736-2381.",
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=31241",
       "date": null,
-      "label": "Directory entry 'Open Mic at The Corona "
+      "label": "badslava.com"
      },
      {
       "url": "https://www.coronaca.gov/government/departments/library",
       "date": "2026-11-06",
-      "label": "City library page contains no open mic m"
-     },
-     {
-      "url": "https://badslava.com/details.php?id=31241",
-      "date": null,
-      "label": "Badslava listing"
+      "label": "coronaca.gov"
      }
     ]
    }
@@ -6172,30 +5897,28 @@
     "city": "Riverside",
     "county": "Riverside",
     "day": "FR",
-    "schedule_text": "First Friday of every month, 7 PM (sign-up 6:30), until 9 PM; per 2014 article",
+    "schedule_text": "1st Friday of the month",
     "schedule_rule": "monthly:1FR",
     "listed_date": null,
     "signup_time": "6:30 PM",
     "start_time": "7:00 PM",
     "end_time": "9:00 PM",
-    "signup_method": null,
     "format": "music",
-    "slot": "up to three songs",
+    "slot": "Up to three songs",
     "backline": null,
     "ages": "all",
     "cost": "Free",
-    "host": "Take 2 Productions",
     "instagram": null,
     "facebook": null,
     "website": null,
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": "Only evidence is a 2014 student paper article (the site shows a 2025 date label on the page chrome). schedule_rule 'monthly:1FR' is outside the requested enum list; mapped as the closest form. Likely long gone; call before relying on it.",
+    "times_vary": false,
     "sources": [
      {
       "url": "https://cbubanner.com/2014/09/29/coffee-houses-host-open-mic-nights",
       "date": "2014-09-29",
-      "label": "\"Daily Brew Coffee House, at 2955 Van Bu"
+      "label": "cbubanner.com"
      }
     ]
    }
@@ -6217,35 +5940,28 @@
     "city": "Pomona",
     "county": "Los Angeles",
     "day": "TU",
-    "schedule_text": "1st and 3rd Tuesday of each month, 9:00pm",
+    "schedule_text": "1st and 3rd Tuesdays",
     "schedule_rule": "monthly:1,3TU",
     "listed_date": null,
     "signup_time": null,
     "start_time": "9:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": "music",
     "slot": null,
     "backline": null,
     "ages": "unknown",
-    "cost": "free (Badslava)",
-    "host": null,
+    "cost": "Free",
     "instagram": "https://www.instagram.com/dba256/",
     "facebook": null,
     "website": "http://www.dba256.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": "Directory only. Format music assumed from the name and Badslava's music-type page; unverified (could be mixed). A Sonicbids excerpt (not captured) described DBA256 as 21+; not confirmed. Check venue social pages.",
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=5202",
       "date": null,
-      "label": "\"Open Mic Tuesday 9:00pm Bi-Weekly Free "
-     },
-     {
-      "url": "https://badslava.com/details.php?id=5202",
-      "date": null,
-      "label": "Badslava listing"
+      "label": "badslava.com"
      }
     ]
    }
@@ -6267,35 +5983,33 @@
     "city": "Diamond Bar",
     "county": "Los Angeles",
     "day": "TH",
-    "schedule_text": "Fourth Thursday of the month at 6:30pm; 'usually every 4th Thursday, check our Facebook Page'. Another excerpt said third Thursday 5:30pm (conflict).",
+    "schedule_text": "4th Thursday of the month",
     "schedule_rule": "monthly:4TH",
     "listed_date": null,
     "signup_time": "6:30 PM",
     "start_time": "7:00 PM",
     "end_time": "9:00 PM",
-    "signup_method": "in person in Room CC6",
     "format": "mixed",
-    "slot": "three songs or about 10 minutes",
-    "backline": "PA with 2 mics and 3 inputs (XLR or 1/4\"); auditorium seats 40+",
+    "slot": "Three songs or about 10 minutes",
+    "backline": "PA with 2 mics and 3 inputs; auditorium seats 40+",
     "ages": "unknown",
     "cost": null,
-    "host": "Marriyan Hill",
     "instagram": null,
     "facebook": "http://www.facebook.com/profile.php?id=61559698094858",
     "website": null,
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": "Undated directory listing only. Facebook page id suggests creation around 2024 (inference). Diamond Bar is at the edge of the 13-mile radius; distance not checked. Needs Chrome check of the Facebook page. The building is a public agency auditorium; confirm public access.",
+    "times_vary": true,
     "sources": [
      {
       "url": "https://openmikes.org/listings/southcoastaqmdbuilding",
       "date": null,
-      "label": "\"Signups start at 6:30 PM in Room CC6 of"
+      "label": "openmikes.org"
      },
      {
       "url": "https://openmikes.org/open-mics-in-Diamond+Bar-CA",
       "date": null,
-      "label": "\"Usually every 4th Thursday, check our F"
+      "label": "openmikes.org"
      }
     ]
    }
@@ -6317,35 +6031,33 @@
     "city": "Claremont",
     "county": "Los Angeles",
     "day": "SU",
-    "schedule_text": "Last Sunday of every month",
+    "schedule_text": "Last Sunday of the month",
     "schedule_rule": "monthly:LASTSU",
     "listed_date": null,
     "signup_time": "6:00 PM",
     "start_time": "6:30 PM",
     "end_time": null,
-    "signup_method": "in person at 6pm",
     "format": "music",
-    "slot": "two songs or five minutes",
+    "slot": "Two songs or five minutes",
     "backline": "PA and sound person provided; bring your own instrument",
     "ages": "unknown",
     "cost": "$3 per person",
-    "host": "Folk Music Center Museum",
     "instagram": null,
     "facebook": null,
     "website": null,
     "tier": "checked",
     "checked_date": "2026-10-25",
-    "notes": "Year not printed on cards. Cards for Sep 27, Jul 26, Jun 28 are absent from the events page, so some months may be skipped or unlisted. No Nov 29 card yet. Older listings said $2. Ages not stated.",
+    "times_vary": false,
     "sources": [
      {
       "url": "https://www.folkmusiccenter.com/events",
       "date": "2026-10-25",
-      "label": "A Folk Music Center Museum event the las"
+      "label": "folkmusiccenter.com"
      },
      {
       "url": "https://www.folkmusiccenter.com/events/open-mic-night-1-s9mfg-xdghp-pgccx-plwmz-4kywk-sehbr-yrfs3-fnc88-y9x5p-ep3kn-9sf2l-5bt5a-nz6a7",
       "date": "2026-10-25",
-      "label": "\"Sign up at 6pm Show at 6:30\" and \"$3 pe"
+      "label": "folkmusiccenter.com"
      }
     ]
    }
@@ -6367,45 +6079,38 @@
     "city": "Pomona",
     "county": "Los Angeles",
     "day": "SA",
-    "schedule_text": "Saturdays 6:00pm, weekly (Badslava); Saturdays at 6 p.m. on the patio (Poly Post, March 2020)",
+    "schedule_text": "Weekly, Saturdays",
     "schedule_rule": "weekly:SA",
     "listed_date": null,
     "signup_time": null,
     "start_time": "6:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": "mixed",
     "slot": null,
     "backline": null,
     "ages": "unknown",
-    "cost": "free (Badslava)",
-    "host": null,
+    "cost": "Free",
     "instagram": null,
     "facebook": null,
     "website": "http://www.ibrewworks.com/",
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": "Venue site does not mention an open mic, which lowers confidence. Badslava's Pomona page generated 2026-11-06 lists it for Sat 11/07 but that is a computed calendar, not dated evidence. A Yelp excerpt (not captured) said Thursday. Check @ibrewworks. On campus; ages policy unknown.",
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=8355",
       "date": null,
-      "label": "\"Open Mic Saturday 6:00pm Weekly Free\" ("
+      "label": "badslava.com"
      },
      {
       "url": "https://thepolypost.com/arts-and-culture/2020/03/10/weekly-game-night-at-innovation-brew-works/",
       "date": "2020-03-10",
-      "label": "\"Saturdays are Open Mic Night at IBW, st"
+      "label": "thepolypost.com"
      },
      {
       "url": "https://www.ibrewworks.com/",
       "date": "2026-11-06",
-      "label": "Venue site captured; no open mic mention"
-     },
-     {
-      "url": "https://badslava.com/details.php?id=8355",
-      "date": null,
-      "label": "Badslava listing"
+      "label": "ibrewworks.com"
      }
     ]
    }
@@ -6427,30 +6132,28 @@
     "city": "Riverside",
     "county": "Riverside",
     "day": "FR",
-    "schedule_text": "Friday 2026-11-20, 6 PM to 9 PM (Friendsgiving edition); recurrence not stated",
+    "schedule_text": "Fridays, dates vary",
     "schedule_rule": "irregular",
     "listed_date": "2026-11-20",
     "signup_time": null,
     "start_time": "6:00 PM",
     "end_time": "9:00 PM",
-    "signup_method": "RSVP via Eventbrite requested for head-count (free); open-mic sign-up method not stated",
     "format": "music",
     "slot": null,
     "backline": null,
     "ages": "all",
-    "cost": "Free (optional donation tiers)",
-    "host": "Nacho Ann's Fabrics",
+    "cost": "Free",
     "instagram": null,
     "facebook": null,
     "website": null,
     "tier": "checked",
     "checked_date": "2026-11-06",
-    "notes": "Evidence is a single upcoming listing (undated page; accessed date used). Title pairs an open mic with a featured artist, so open slots may be limited. A search snippet showed an earlier 'Deep Cuts' edition at the same shop (a Jul 31 date, year unclear) so it recurs, but frequency is unverified. Organizer says 'one music event at a time'. Verify slot availability with the shop.",
+    "times_vary": false,
     "sources": [
      {
       "url": "https://allevents.in/riverside/deep-cuts-friendsgiving-open-mic-and-artist-spotlight-feat-alpha-nancy/100002004498281319",
       "date": "2026-11-06",
-      "label": "\"This is an all-ages event.\" Intimate ac"
+      "label": "allevents.in"
      }
     ]
    }
@@ -6472,35 +6175,33 @@
     "city": "Riverside",
     "county": "Riverside",
     "day": "SA",
-    "schedule_text": "Some Saturdays, 6-9 pm or later (recent: Sep 5, Sep 19, Nov 21, 2026)",
+    "schedule_text": "Saturdays, dates vary",
     "schedule_rule": "irregular",
     "listed_date": "2026-11-21",
     "signup_time": null,
     "start_time": "6:00 PM",
     "end_time": "9:00 PM",
-    "signup_method": null,
     "format": "mixed",
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "No cover",
-    "host": "Patrick Maloney / Riverside Open Mic Music Series",
     "instagram": "https://www.instagram.com/riversideopenmic/",
     "facebook": "https://www.facebook.com/events/4550968705163405/",
     "website": null,
     "tier": "checked",
     "checked_date": "2026-11-06",
-    "notes": "Karaoke and open mic on the same night, so live-instrument slots may be fewer. Dates from the host's Instagram (checked 2026-11-07) and a Facebook event for Nov 21.",
+    "times_vary": false,
     "sources": [
      {
       "url": "https://www.facebook.com/events/4550968705163405/",
       "date": "2026-11-06",
-      "label": "\"Open Mic & Karaoke at Packinghouse in R"
+      "label": "facebook.com"
      },
      {
       "url": "https://packinghousebeer.com/",
       "date": "2026-11-06",
-      "label": "Venue address: \"6421 CENTRAL AVE\" RIVERS"
+      "label": "packinghousebeer.com"
      }
     ]
    }
@@ -6522,40 +6223,33 @@
     "city": "Corona",
     "county": "Riverside",
     "day": "WE",
-    "schedule_text": "Wednesdays, weekly (Badslava, undated)",
+    "schedule_text": "Weekly, Wednesdays",
     "schedule_rule": "weekly:WE",
     "listed_date": null,
     "signup_time": "7:30 PM",
     "start_time": "8:00 PM",
     "end_time": null,
-    "signup_method": null,
     "format": "music",
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": "Free",
-    "host": null,
     "instagram": "https://www.instagram.com/rockefellasbar/",
     "facebook": null,
     "website": "http://www.rockefellasbar.com/",
     "tier": "may_have_stopped",
     "checked_date": null,
-    "notes": "Directory lists a Wednesday music open mic; the venue's own site (checked 2026-11-06) shows nightly karaoke and a monthly comedy night instead.",
+    "times_vary": false,
     "sources": [
      {
       "url": "https://badslava.com/details.php?id=5285",
       "date": null,
-      "label": "Event Day: Wednesday; Event Time: 8:00pm"
+      "label": "badslava.com"
      },
      {
       "url": "https://www.rockefellasbar.com/",
       "date": "2026-11-06",
-      "label": "Venue site lists nightly karaoke and mon"
-     },
-     {
-      "url": "https://badslava.com/details.php?id=5285",
-      "date": null,
-      "label": "Badslava listing"
+      "label": "rockefellasbar.com"
      }
     ]
    }
@@ -6577,30 +6271,28 @@
     "city": "Norco",
     "county": "Riverside",
     "day": "FR",
-    "schedule_text": "Monthly Friday nights; the most recent was Fri Oct 30 at 7 pm. Check the page for the next date.",
+    "schedule_text": "Fridays, dates vary",
     "schedule_rule": "irregular",
     "listed_date": null,
-    "signup_time": "Online form before the night",
+    "signup_time": null,
     "start_time": "7:00 PM",
     "end_time": null,
-    "signup_method": "Online form; first come, first served; backing tracks by email",
     "format": "music",
     "slot": null,
     "backline": "Backing tracks accepted",
     "ages": "all",
     "cost": null,
-    "host": "Rockstars of Tomorrow Norco (music school)",
     "instagram": null,
     "facebook": null,
     "website": null,
     "tier": "checked",
     "checked_date": "2026-10-30",
-    "notes": "The page shows \"SIGN UPS CLOSED!!!\" for Oct 30 and gives no next date yet. The year isn't printed; Oct 30 is a Friday in 2026.",
+    "times_vary": false,
     "sources": [
      {
       "url": "https://rotnorco.rockstarsoftomorrow.com/open-mic-night",
       "date": "2026-10-30",
-      "label": "Friday, Oct 30th at 7pm"
+      "label": "rotnorco.rockstarsoftomorrow.com"
      }
     ]
    }
@@ -6622,30 +6314,28 @@
     "city": "Riverside",
     "county": "Riverside",
     "day": "FR",
-    "schedule_text": "First Friday of every month, 7-9 pm",
+    "schedule_text": "1st Friday of the month",
     "schedule_rule": "monthly:1FR",
     "listed_date": null,
-    "signup_time": "Online form before the night",
+    "signup_time": null,
     "start_time": "7:00 PM",
     "end_time": "9:00 PM",
-    "signup_method": "Online form; first come, first served",
     "format": "music",
     "slot": "Under 5 minutes",
     "backline": "Backing tracks by link on the form",
     "ages": "all",
     "cost": null,
-    "host": "Rockstars of Tomorrow Riverside (music school)",
     "instagram": null,
     "facebook": null,
     "website": null,
     "tier": "unconfirmed",
     "checked_date": null,
-    "notes": "The venue's own current page states the schedule, but it carries no dated event, so it stays 'likely' until a dated post confirms it.",
+    "times_vary": false,
     "sources": [
      {
       "url": "https://rotriverside.rockstarsoftomorrow.com/open-mic-night",
       "date": null,
-      "label": "First Friday of every month"
+      "label": "rotriverside.rockstarsoftomorrow.com"
      }
     ]
    }
@@ -6663,34 +6353,32 @@
     "id": "wine-now-lounge-open-mic",
     "name": "Open Mic Night at Wine Now!",
     "venue": "Wine Now! Lounge",
-    "address": "8419 Haven Ave, Rancho Cucamonga, CA (Eventbrite shows only \"Haven Avenue\"; full address from an Instagram search snippet)",
+    "address": "8419 Haven Ave, Rancho Cucamonga, CA",
     "city": "Rancho Cucamonga",
     "county": "San Bernardino",
     "day": "FR",
-    "schedule_text": "One Eventbrite date found: Friday June 26, 2026, 7 PM to 10:30 PM. No recurrence shown.",
+    "schedule_text": "Fridays, dates vary",
     "schedule_rule": "irregular",
     "listed_date": null,
     "signup_time": null,
-    "start_time": "7:00 pm (Eventbrite event window 7 PM to 10:30 PM; Instagram snippet says doors 7:00, show 7:30)",
+    "start_time": "7:00 PM",
     "end_time": "10:30 PM",
-    "signup_method": "Eventbrite performer sign-up (per Instagram snippet, not captured)",
     "format": null,
     "slot": null,
     "backline": null,
     "ages": "unknown",
     "cost": null,
-    "host": "Wine Now! Lounge Events",
     "instagram": "https://www.instagram.com/p/DYh2rBNh-Ac/",
     "facebook": "https://www.facebook.com/romaine.washington/posts/yes-an-open-mic-night-in-rancho-cucamonga-if-you-are-in-the-area-and-go-please-l/10241107494242280/",
     "website": null,
     "tier": "may_have_stopped",
     "checked_date": null,
-    "notes": "Ran May 22 and Jun 26, 2026 (fourth Fridays, ticketed via Eventbrite). The venue's November 2026 events calendar on Instagram (checked 2026-11-07) shows no open mic.",
+    "times_vary": false,
     "sources": [
      {
       "url": "https://www.eventbrite.com/e/open-mic-night-at-wine-now-tickets-1987378324066",
       "date": "2026-06-26",
-      "label": "Event page, marked ended: \"Friday, June "
+      "label": "eventbrite.com"
      }
     ]
    }

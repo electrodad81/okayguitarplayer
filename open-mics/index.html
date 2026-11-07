@@ -92,9 +92,10 @@ footer { border-top: 3px solid var(--rule); padding: 8px max(16px, env(safe-area
 <header>
   <div class="top">
     <h1>Okay <mark>open mics</mark></h1>
-    <p class="sub">Southern California. Nights with music slots. <span id="checked"></span></p>
+    <p class="sub">Open mics with music slots across Southern California. Solid pins have a venue or host post from the last 60 days. Hollow pins are leads. Check the source before you go. <span id="checked"></span></p>
     <div class="actions">
       <button class="btn" type="button" id="submitBtn">Add a mic: DM @okayguitarplayer</button>
+      <a class="btn" id="email" href="https://okay-guitar-player.kit.com/b95bfe4607?utm_source=open-mic-map&amp;utm_medium=map&amp;utm_campaign=open-mic-list&amp;utm_content=email-link" target="_blank" rel="noopener">Get the list by email each month</a>
       <a class="btn solid" id="support" href="https://okayguitarplayer-shop.fourthwall.com/supporters/pricing?utm_source=open-mic-map&amp;utm_medium=web&amp;utm_campaign=open-mic-map&amp;utm_content=open-mic-map" target="_blank" rel="noopener">Help keep this map going</a>
     </div>
   </div>
@@ -122,7 +123,7 @@ footer { border-top: 3px solid var(--rule); padding: 8px max(16px, env(safe-area
       </div>
       <div class="tiers">
         <div><span class="sw" style="background:var(--we);color:#fff;border-width:3.5px">W</span> Checked: a venue or host post in the last 60 days</div>
-        <div><span class="sw" style="background:#fff;border-color:var(--we)">W</span> Unconfirmed: from a directory or an older post</div>
+        <div><span class="sw" style="background:#fff;border-color:var(--we)">W</span> Not checked yet: a lead from a directory or an older post</div>
         <div><span class="sw" style="background:#d9d9d9;border-color:#8a8a85;color:#55554f">W</span> May have stopped: the venue says otherwise</div>
         <div><span class="sw" style="background:var(--ink);color:var(--paper)">12</span> A group of mics; tap to zoom in</div>
       </div>
@@ -183,11 +184,17 @@ const daysAgo = (iso, from) => { if (!iso) return null; const [y, m, d] = iso.sp
 let all = [], state = { day: null, tonight: false, checked: false, allAges: false, county: "", here: null, sel: null };
 const from = todayPT();
 
+const shortDate = (iso) => { if (!iso) return ""; const [y, m, d] = iso.split("-").map(Number); return new Date(y, m - 1, d).toLocaleString("en-US", { month: "short", day: "numeric" }); };
 function badge(p) {
-  if (p.tier === "checked") { const n = daysAgo(p.checked_date, from); return `<span class="tag tier-checked">Checked${n != null ? " " + n + "d ago" : ""}</span>`; }
+  if (p.tier === "checked") return `<span class="tag tier-checked">Checked ${esc(shortDate(p.checked_date))}</span>`;
   if (p.tier === "may_have_stopped") return `<span class="tag tier-may_have_stopped">May have stopped</span>`;
   if (p.tier === "players") return `<span class="tag">Players confirmed</span>`;
-  return `<span class="tag tier-unconfirmed">Unconfirmed</span>`;
+  return `<span class="tag tier-unconfirmed">Not checked yet</span>`;
+}
+// One clean line: "Weekly, Saturdays · 6:00 PM · Free", or "Times vary. Check the source."
+function line(p) {
+  if (p.times_vary) return [p.schedule_text, "Times vary. Check the source."].filter(Boolean).join(" · ");
+  return [p.schedule_text, p.start_time, p.cost].filter(Boolean).join(" · ");
 }
 function km(a, b) { const R = 6371, t = Math.PI / 180, dLa = (b[1] - a[1]) * t, dLo = (b[0] - a[0]) * t; const h = Math.sin(dLa / 2) ** 2 + Math.cos(a[1] * t) * Math.cos(b[1] * t) * Math.sin(dLo / 2) ** 2; return 2 * R * Math.asin(Math.sqrt(h)); }
 
@@ -205,7 +212,7 @@ function filtered() {
 }
 
 function sourcesHTML(p) {
-  return (p.sources || []).slice(0, 3).map((s, i) => `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.label || "source " + (i + 1))}</a>${s.date ? " (" + esc(s.date) + ")" : ""}`).join(" · ");
+  return (p.sources || []).slice(0, 3).map((s, i) => `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.label || "source " + (i + 1))}</a>`).join(" · ");
 }
 function directions(p) { return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent((p.venue || "") + ", " + (p.address || ""))}`; }
 
@@ -214,7 +221,8 @@ function renderList(feats) {
   const sorted = [...feats].sort((a, b) => {
     if (state.here) return a.properties._km - b.properties._km;
     const ad = a.properties._next ? a.properties._next.date : 9e15, bd = b.properties._next ? b.properties._next.date : 9e15;
-    return ad - bd || (a.properties.tier === "checked" ? -1 : 1);
+    const rank = { checked: 0, players: 1, unconfirmed: 2, may_have_stopped: 3 };
+    return ad - bd || rank[a.properties.tier] - rank[b.properties.tier];
   });
   $("count").textContent = `${feats.length} open mic${feats.length === 1 ? "" : "s"}${state.here ? ", nearest first" : ", soonest first"}`;
   rows.innerHTML = sorted.length ? "" : '<p class="empty">No open mics match these filters.</p>';
@@ -226,10 +234,10 @@ function renderList(feats) {
     el.id = "row-" + p.id;
     el.innerHTML = `<div class="when" style="border-color:${d ? d[2] : "var(--ink)"}"><b style="background:${d ? d[2] : "var(--ink)"};color:${d ? d[3] : "#fff"}">${d ? d[0] : "?"}</b>${n ? `<span>${n.date.getDate()}</span><small>${n.date.toLocaleString("en-US", { month: "short" })}${n.approx ? "?" : ""}</small>` : "<span>?</span><small>varies</small>"}</div>
       <div><div class="name">${esc(p.name)}</div>
-      <div class="meta">${esc(p.venue)}${p.city ? ", " + esc(p.city) : ""} · ${esc(p.county || "")}${p.start_time ? " · " + esc(p.start_time) : ""}${state.here ? ` · ${(p._km * 0.621).toFixed(1)} mi` : ""}</div>
-      <div class="meta">${esc(p.schedule_text || "")}</div>
-      <div class="row">${badge(p)}${p.ages === "all" ? '<span class="tag">All ages</span>' : p.ages && p.ages !== "unknown" ? `<span class="tag">${esc(p.ages)}</span>` : ""}${p.format === "mixed" ? '<span class="tag">Mixed night</span>' : ""}${p.cost ? `<span class="tag">${esc(p.cost)}</span>` : ""}</div>
-      <div class="row"><button class="mini" data-act="show">Show on map</button><button class="mini" data-act="still">Still running?</button><a class="mini" href="${directions(p)}" target="_blank" rel="noopener">Directions</a></div>
+      <div class="meta">${esc(p.venue)}${p.city ? ", " + esc(p.city) : ""} · ${esc(p.county || "")}${state.here ? ` · ${(p._km * 0.621).toFixed(1)} mi` : ""}</div>
+      <div class="meta">${esc(line(p))}</div>
+      <div class="row">${badge(p)}${p.ages === "all" ? '<span class="tag">All ages</span>' : p.ages && p.ages !== "unknown" ? `<span class="tag">${esc(p.ages)}</span>` : ""}${p.format === "mixed" ? '<span class="tag">Mixed night</span>' : ""}</div>
+      <div class="row"><button class="mini" data-act="show">Show on map</button><button class="mini" data-act="still">Still running?</button><a class="mini" href="${directions(p)}" target="_blank" rel="noopener">Directions</a>${p.sources && p.sources[0] ? `<a class="mini" href="${esc(p.sources[0].url)}" target="_blank" rel="noopener">Source</a>` : ""}</div>
       <div class="still" hidden></div></div>`;
     el.querySelector('[data-act="show"]').addEventListener("click", () => select(p.id, true));
     el.querySelector('[data-act="still"]').addEventListener("click", (e) => {
@@ -257,10 +265,9 @@ function select(id, fly) {
   if (fly) map.flyTo({ center: f.geometry.coordinates, zoom: Math.max(map.getZoom(), 13), duration: 600 });
   const p = f.properties;
   new maplibregl.Popup({ offset: 14, maxWidth: "290px" }).setLngLat(f.geometry.coordinates).setHTML(
-    `<b>${esc(p.name)}</b><br>${esc(p.venue)}${p.address ? "<br>" + esc(p.address) : ""}<br>${esc(p.schedule_text || "")}
-     ${p.signup_time ? "<br>Sign-up: " + esc(p.signup_time) : ""}${p.start_time ? " · Starts " + esc(p.start_time) : ""}
-     ${p.cost ? "<br>Cost: " + esc(p.cost) : ""}${p.slot ? "<br>Slot: " + esc(p.slot) : ""}
-     <br>${badge(p)}${p.notes ? `<br><small>${esc(p.notes)}</small>` : ""}
+    `<b>${esc(p.name)}</b><br>${esc(p.venue)}${p.address ? "<br>" + esc(p.address) : ""}<br>${esc(line(p))}
+     ${p.signup_time && !p.times_vary ? "<br>Sign-up " + esc(p.signup_time) : ""}${p.slot ? "<br>Slot: " + esc(p.slot) : ""}
+     <br>${badge(p)}
      <br>${sourcesHTML(p)}${p.instagram ? ` · <a href="${esc(p.instagram)}" target="_blank" rel="noopener">Instagram</a>` : ""} · <a href="${directions(p)}" target="_blank" rel="noopener">Directions</a>`).addTo(map);
 }
 
