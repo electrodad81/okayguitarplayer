@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Okay Open Mics: Western Inland Empire</title>
+<meta name="description" content="Recurring open mics with music slots in the western Inland Empire: Corona, Riverside, Ontario, Pomona, Claremont and around. A community list from okayguitarplayer.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400&family=Archivo+Narrow:wght@500;700&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<style>
+/* A photocopied zine: black ink on white, one highlighter. List left, map right; stacked on phones. */
+:root {
+  --paper: #fbfbf8; --ink: #111111; --soft: #5a5a55; --rule: #1a1a1a; --hi: #ffe14d; --line: #d8d8d2;
+  --mono: "Courier Prime", "Courier New", ui-monospace, monospace;
+  --narrow: "Archivo Narrow", "Arial Narrow", sans-serif;
+}
+* { box-sizing: border-box; }
+html, body { height: 100%; margin: 0; }
+body { background: var(--paper); color: var(--ink); font: 15px/1.45 var(--mono); display: flex; flex-direction: column; }
+header { padding: 14px max(16px, env(safe-area-inset-right)) 10px max(16px, env(safe-area-inset-left)); border-bottom: 3px solid var(--rule); }
+h1 { margin: 0; font: 700 clamp(26px, 5vw, 40px)/1 var(--mono); letter-spacing: -0.02em; }
+h1 mark { background: var(--hi); padding: 0 4px; }
+.sub { margin: 6px 0 0; color: var(--soft); font-size: 13px; }
+.filters { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; align-items: center; }
+.chip { font: 700 12px var(--narrow); text-transform: uppercase; letter-spacing: 0.06em; border: 1.5px solid var(--ink); background: var(--paper); color: var(--ink); padding: 4px 9px; cursor: pointer; }
+.chip[aria-pressed="true"] { background: var(--ink); color: var(--paper); }
+.chip:focus-visible, .item:focus-visible, a:focus-visible { outline: 3px solid var(--hi); outline-offset: 2px; }
+label.tog { font-size: 12px; display: inline-flex; gap: 5px; align-items: center; margin-left: 6px; }
+main { flex: 1; display: grid; grid-template-columns: minmax(0, 400px) minmax(0, 1fr); min-height: 0; }
+#list { overflow-y: auto; border-right: 3px solid var(--rule); padding: 8px 0 24px; min-width: 0; }
+#map { min-height: 300px; }
+.empty { padding: 16px; color: var(--soft); }
+.item { padding: 12px max(16px, env(safe-area-inset-left)) 12px 16px; border-bottom: 1px dashed var(--line); cursor: pointer; display: grid; grid-template-columns: 54px minmax(0, 1fr); gap: 10px; }
+.item:hover { background: #f1f1ea; }
+.when { text-align: center; border: 1.5px solid var(--ink); align-self: start; padding: 4px 0; }
+.when b { display: block; font: 700 13px var(--narrow); text-transform: uppercase; color: var(--paper); background: var(--day, var(--ink)); }
+.when span { display: block; font: 700 18px var(--mono); }
+.when small { display: block; font-size: 10px; color: var(--soft); }
+.name { font-weight: 700; font-size: 16px; }
+.meta { font-size: 13px; color: var(--soft); }
+.tags { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 4px; font: 700 10.5px var(--narrow); text-transform: uppercase; letter-spacing: 0.05em; }
+.tags span { border: 1px solid var(--ink); padding: 0 5px; }
+.tags .hi { background: var(--hi); border-color: var(--hi); }
+.links { font-size: 12px; margin-top: 4px; }
+a { color: var(--ink); }
+footer { border-top: 3px solid var(--rule); padding: 10px max(16px, env(safe-area-inset-right)) max(12px, env(safe-area-inset-bottom)) max(16px, env(safe-area-inset-left)); font-size: 12px; display: flex; flex-wrap: wrap; gap: 6px 18px; }
+#signup[hidden] { display: none; }
+.leaflet-popup-content { font: 13px/1.4 var(--mono); }
+.leaflet-popup-content b { font-size: 14px; }
+.pin { width: 16px; height: 16px; border: 2px solid var(--ink); border-radius: 50% 50% 50% 0; transform: rotate(-45deg); box-shadow: 1px 1px 0 var(--ink); }
+@media (max-width: 760px) {
+  main { grid-template-columns: minmax(0, 1fr); grid-template-rows: 42vh minmax(0, 1fr); }
+  #map { order: 1; } #list { order: 2; border-right: 0; border-top: 3px solid var(--rule); }
+}
+@media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto; } }
+</style>
+</head>
+<body>
+<header>
+  <h1>Okay <mark>open mics</mark></h1>
+  <p class="sub">Western Inland Empire: Corona, Riverside, Ontario, Pomona, Claremont and around. Nights with music slots. <span id="checked"></span></p>
+  <div class="filters" role="group" aria-label="Filter by night">
+    <span id="days"></span>
+    <label class="tog"><input type="checkbox" id="allages"> All ages only</label>
+    <label class="tog"><input type="checkbox" id="musiconly"> Music-only nights</label>
+  </div>
+</header>
+<main>
+  <section id="list" aria-label="Open mics, soonest first"></section>
+  <div id="map" role="region" aria-label="Map of open mics"></div>
+</main>
+<footer>
+  <span>A community list by <a href="https://www.threads.com/@okayguitarplayer">@okayguitarplayer</a>. Times change: check the source link before you go.</span>
+  <span>Spot a change or a missing mic? DM @okayguitarplayer.</span>
+  <a id="signup" hidden href="#">Get the list by email each month</a>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script>
+const SIGNUP_URL = ""; // the OGP agent fills this with the Kit form link (with UTM tags) when the page goes public
+const DAYS = ["SU", "MO", "TU", "WE", "TH", "FR", "SA"];
+const DAY_NAME = { SU: "Sun", MO: "Mon", TU: "Tue", WE: "Wed", TH: "Thu", FR: "Fri", SA: "Sat" };
+const DAY_COLOR = { SU: "#b8432f", MO: "#2f5fa8", TU: "#2e7d4f", WE: "#7a3fa0", TH: "#c07a12", FR: "#1f7f86", SA: "#444444" };
+const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+
+if (SIGNUP_URL) { const a = document.getElementById("signup"); a.href = SIGNUP_URL; a.hidden = false; }
+
+// Today in Pacific time, as a date with no time part.
+function todayPT() {
+  const p = new Intl.DateTimeFormat("en-CA", { timeZone: "America/Los_Angeles", year: "numeric", month: "2-digit", day: "2-digit" }).format(new Date());
+  const [y, m, d] = p.split("-").map(Number);
+  return new Date(y, m - 1, d);
+}
+// Next date for a schedule rule: weekly:WE, biweekly:WE, monthly:1TU, monthly:LASTSU, irregular.
+function nextDate(rule, from) {
+  if (!rule) return null;
+  const [kind, spec] = rule.split(":");
+  if (kind === "weekly" || kind === "biweekly") {
+    const dow = DAYS.indexOf(spec);
+    if (dow < 0) return null;
+    const d = new Date(from); d.setDate(d.getDate() + ((dow - d.getDay() + 7) % 7));
+    return { date: d, approx: kind === "biweekly" };
+  }
+  if (kind === "monthly") {
+    const m = spec.match(/^(LAST|[1-5])([A-Z]{2})$/);
+    if (!m) return null;
+    const dow = DAYS.indexOf(m[2]);
+    for (let k = 0; k < 3; k++) {
+      const y = from.getFullYear(), mo = from.getMonth() + k;
+      let d;
+      if (m[1] === "LAST") {
+        d = new Date(y, mo + 1, 0);
+        while (d.getDay() !== dow) d.setDate(d.getDate() - 1);
+      } else {
+        d = new Date(y, mo, 1);
+        while (d.getDay() !== dow) d.setDate(d.getDate() + 1);
+        d.setDate(d.getDate() + 7 * (Number(m[1]) - 1));
+        if (d.getMonth() !== ((mo % 12) + 12) % 12) continue;
+      }
+      if (d >= from) return { date: d, approx: false };
+    }
+  }
+  return null;
+}
+const dayOf = (rule) => (rule && rule.split(":")[1] ? rule.split(":")[1].slice(-2) : null);
+
+const map = L.map("map", { scrollWheelZoom: true });
+L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+  maxZoom: 18, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+}).addTo(map);
+map.setView([34.03, -117.55], 10);
+
+let all = [], markers = new Map(), activeDay = null;
+const pin = (color) => L.divIcon({ className: "", html: `<div class="pin" style="background:${color}"></div>`, iconSize: [16, 16], iconAnchor: [8, 18], popupAnchor: [0, -16] });
+
+function popupHTML(p) {
+  const src = (p.sources || []).filter((s) => s.url).slice(0, 3).map((s, i) => `<a href="${esc(s.url)}" target="_blank" rel="noopener">source ${i + 1}</a>${s.evidence_date ? " (" + esc(s.evidence_date) + ")" : ""}`).join(" · ");
+  const dir = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(p.venue + ", " + p.address)}`;
+  return `<b>${esc(p.name)}</b><br>${esc(p.venue)}, ${esc(p.city)}<br>${esc(p.schedule_text || "")}
+    ${p.signup_time ? "<br>Sign-up: " + esc(p.signup_time) : ""}${p.start_time ? " · Starts: " + esc(p.start_time) : ""}
+    ${p.cost ? "<br>Cost: " + esc(p.cost) : ""}${p.slot ? "<br>Slot: " + esc(p.slot) : ""}${p.backline ? "<br>Gear: " + esc(p.backline) : ""}
+    <br>Ages: ${esc(p.ages || "unknown")} · ${esc(p.format === "mixed" ? "mixed night" : "music")}
+    <br><small>Last checked ${esc(p.latest_evidence_date || "?")}${p.status === "likely" ? " (older, confirm first)" : ""}</small>
+    <br>${src}${src ? " · " : ""}<a href="${dir}" target="_blank" rel="noopener">directions</a>`;
+}
+
+function render() {
+  const from = todayPT();
+  const allAges = document.getElementById("allages").checked;
+  const musicOnly = document.getElementById("musiconly").checked;
+  const rows = all.map((f) => ({ f, p: f.properties, n: nextDate(f.properties.schedule_rule, from), day: dayOf(f.properties.schedule_rule) }))
+    .filter((r) => (!activeDay || r.day === activeDay) && (!allAges || r.p.ages === "all") && (!musicOnly || r.p.format === "music"))
+    .sort((a, b) => (a.n ? a.n.date : 9e15) - (b.n ? b.n.date : 9e15));
+  const list = document.getElementById("list");
+  list.innerHTML = rows.length ? "" : '<p class="empty">No open mics match these filters.</p>';
+  const shown = new Set();
+  for (const r of rows) {
+    shown.add(r.p.id);
+    const color = DAY_COLOR[r.day] || "#111";
+    const when = r.n ? `<span>${r.n.date.getDate()}</span><small>${r.n.date.toLocaleString("en-US", { month: "short" })}${r.n.approx ? "?" : ""}</small>` : "<span>?</span><small>varies</small>";
+    const el = document.createElement("article");
+    el.className = "item"; el.tabIndex = 0;
+    el.innerHTML = `<div class="when" style="--day:${color}"><b>${DAY_NAME[r.day] || "—"}</b>${when}</div>
+      <div><div class="name">${esc(r.p.name)}</div>
+      <div class="meta">${esc(r.p.venue)}, ${esc(r.p.city)} · ${esc(r.p.schedule_text || "")}${r.p.start_time ? " · " + esc(r.p.start_time) : ""}</div>
+      <div class="tags">${r.p.ages === "all" ? '<span class="hi">all ages</span>' : `<span>${esc(r.p.ages || "ages?")}</span>`}<span>${r.p.format === "mixed" ? "mixed" : "music"}</span>${r.p.cost ? `<span>${esc(r.p.cost)}</span>` : ""}${r.p.status === "likely" ? "<span>confirm first</span>" : ""}</div></div>`;
+    const open = () => { const m = markers.get(r.p.id); map.flyTo(m.getLatLng(), Math.max(map.getZoom(), 13), { duration: 0.6 }); m.openPopup(); };
+    el.addEventListener("click", open);
+    el.addEventListener("keydown", (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); open(); } });
+    list.appendChild(el);
+  }
+  for (const [id, m] of markers) (shown.has(id) ? m.addTo(map) : m.remove());
+}
+
+function buildDays() {
+  const box = document.getElementById("days");
+  const mk = (code, label) => {
+    const b = document.createElement("button");
+    b.className = "chip"; b.type = "button"; b.textContent = label;
+    b.setAttribute("aria-pressed", String(activeDay === code));
+    b.addEventListener("click", () => { activeDay = code; [...box.children].forEach((c) => c.setAttribute("aria-pressed", "false")); b.setAttribute("aria-pressed", "true"); render(); });
+    return b;
+  };
+  box.append(mk(null, "All"), ...["MO", "TU", "WE", "TH", "FR", "SA", "SU"].map((d) => mk(d, DAY_NAME[d])));
+}
+
+fetch("open-mics.geojson", { cache: "no-cache" }).then((r) => r.json()).then((gj) => {
+  all = gj.features;
+  if (gj.generated) document.getElementById("checked").textContent = `List checked ${gj.generated}.`;
+  for (const f of all) {
+    const [lon, lat] = f.geometry.coordinates;
+    const m = L.marker([lat, lon], { icon: pin(DAY_COLOR[dayOf(f.properties.schedule_rule)] || "#111"), title: f.properties.name })
+      .bindPopup(popupHTML(f.properties));
+    markers.set(f.properties.id, m);
+  }
+  if (all.length) map.fitBounds(L.latLngBounds(all.map((f) => [f.geometry.coordinates[1], f.geometry.coordinates[0]])).pad(0.15));
+  buildDays(); render();
+}).catch(() => {
+  document.getElementById("list").innerHTML = '<p class="empty">The list did not load. Refresh to try again.</p>';
+});
+</script>
+</body>
+</html>

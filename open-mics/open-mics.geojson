@@ -1,0 +1,331 @@
+{
+ "type": "FeatureCollection",
+ "generated": "2026-11-06",
+ "about": "Recurring open mics with music slots in the western Inland Empire. Community list; times change, so check the source link before you go.",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -117.37289,
+     33.98129
+    ]
+   },
+   "properties": {
+    "id": "back-to-the-grind-wednesday-open-mic",
+    "name": "Riverside Open Mic Music Series (Wednesday Musicians' Open Mic)",
+    "venue": "Back to the Grind",
+    "address": "3575 University Ave, Riverside, CA 92501",
+    "city": "Riverside",
+    "schedule_text": "Every Wednesday; sign-up 5:30 PM, open mic 6 PM to 9 PM (per host listing for 2026-12-02)",
+    "schedule_rule": "weekly:WE",
+    "signup_time": "5:30 PM",
+    "start_time": "6:00 PM",
+    "end_time": "9:00 PM",
+    "signup_method": null,
+    "format": "music",
+    "slot": "10-15 minute sets (Riverside Scene, Feb 2024)",
+    "backline": null,
+    "ages": "all",
+    "cost": "No cover",
+    "host": "Patrick Maloney / Riverside Open Mic Music Series",
+    "instagram": "https://www.instagram.com/riversideopenmic/",
+    "facebook": "https://www.facebook.com/RiversideOpenMic/",
+    "latest_evidence_date": "2026-11-06",
+    "status": "confirmed",
+    "notes": "Host's Instagram flyers (checked 2026-11-07): \"Sign Up 530pm - Open Mic 6pm to 9pm - Music Only\". The 6:30/7:00 times seen elsewhere belong to the Thursday comedy mic.",
+    "sources": [
+     {
+      "url": "https://allevents.in/riverside/riverside-open-mic-music-series-back-to-the-grind-december-2nd-2026/200030913514139",
+      "evidence_date": "2026-11-06"
+     },
+     {
+      "url": "https://www.facebook.com/RiversideOpenMic/",
+      "evidence_date": "2026-11-06"
+     },
+     {
+      "url": "https://allevents.in/riverside/open-mic",
+      "evidence_date": "2026-11-06"
+     },
+     {
+      "url": "https://riversidescene.com/articles/concerts/backtothegrindopenmicmusicnight",
+      "evidence_date": "2024-02-07"
+     },
+     {
+      "url": "https://tockify.com/riversidefoodlab/detail/343/1733202000000",
+      "evidence_date": "2024-12-02"
+     },
+     {
+      "url": "https://www.highlandernews.org/32135/beneath-grind-inside-open-mic-night-riversides-downtown-coffee-house/",
+      "evidence_date": "2018-02-19"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -117.73022,
+     34.00142
+    ]
+   },
+   "properties": {
+    "id": "chino-hills-art-gallery-open-mic",
+    "name": "Open Mic Night at the Downtown Art Gallery",
+    "venue": "Chino Hills Community Foundation Downtown Art Gallery, The Shoppes at Chino Hills",
+    "address": "The Shops at Chino Hills, Suite 4020 (between Bed Bath & Beyond and Seven Leaves Cafe), Chino Hills, CA 91709",
+    "city": "Chino Hills",
+    "schedule_text": "Roughly monthly, usually Friday evenings; dated listings Fri Feb 20, a mid-March date, and Fri Jun 19 2026 (a search snippet said Thu Jun 18)",
+    "schedule_rule": "irregular",
+    "signup_time": "6:00 PM",
+    "start_time": "7:00 PM",
+    "end_time": null,
+    "signup_method": "In person, sign-ups start at 6 pm",
+    "format": "mixed",
+    "slot": null,
+    "backline": null,
+    "ages": "all",
+    "cost": "Free",
+    "host": "Chino Hills Community Foundation",
+    "instagram": "https://www.instagram.com/p/DTN1vS3FBAE/ (lead, post only; account not identified)",
+    "facebook": null,
+    "latest_evidence_date": "2026-06-19",
+    "status": "likely",
+    "notes": "Run by the Chino Hills Community Foundation gallery: music, poetry, comedy, magic; family friendly. Posts seen for Jan 16 and Jun 19, 2026; nothing newer found on the Shops' Instagram (checked 2026-11-07). Confirm before going.",
+    "sources": [
+     {
+      "url": "https://www.championnewspapers.com/community_news/article_271ec0c7-70c8-4d9b-b4a0-db51fb647ff5.html",
+      "evidence_date": "2026-06-19"
+     },
+     {
+      "url": "https://www.championnewspapers.com/community_news/article_ac649457-8a07-4f9c-b425-5c74e995b9ad.html",
+      "evidence_date": "2026-06-13"
+     },
+     {
+      "url": "https://www.championnewspapers.com/community_news/article_2c733425-b839-4ccd-a688-9f446480ea7c.html",
+      "evidence_date": "2026-02-20"
+     },
+     {
+      "url": "https://www.championnewspapers.com/community_news/article_63c63a3f-22a6-4771-b599-d757d0856aa6.html",
+      "evidence_date": "2026-03-14"
+     },
+     {
+      "url": "https://www.championnewspapers.com/special_section/article_1218d139-cf41-4c79-bf6a-9dd11870c1c6.html",
+      "evidence_date": "2026-06-06"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -117.71759,
+     34.09603
+    ]
+   },
+   "properties": {
+    "id": "folk-music-center-open-mic",
+    "name": "Open Mic Night",
+    "venue": "Folk Music Center & Museum",
+    "address": "220 Yale Ave, Claremont, CA 91711",
+    "city": "Claremont",
+    "schedule_text": "Last Sunday of every month",
+    "schedule_rule": "monthly:LASTSU",
+    "signup_time": "6:00 PM",
+    "start_time": "6:30 PM",
+    "end_time": null,
+    "signup_method": "in person at 6pm",
+    "format": "music",
+    "slot": "two songs or five minutes",
+    "backline": "PA and sound person provided; bring your own instrument",
+    "ages": "unknown",
+    "cost": "$3 per person",
+    "host": "Folk Music Center Museum",
+    "instagram": null,
+    "facebook": null,
+    "latest_evidence_date": "2026-10-25",
+    "status": "confirmed",
+    "notes": "Year not printed on cards. Cards for Sep 27, Jul 26, Jun 28 are absent from the events page, so some months may be skipped or unlisted. No Nov 29 card yet. Older listings said $2. Ages not stated.",
+    "sources": [
+     {
+      "url": "https://www.folkmusiccenter.com/events",
+      "evidence_date": "2026-10-25"
+     },
+     {
+      "url": "https://www.folkmusiccenter.com/events/open-mic-night-1-s9mfg-xdghp-pgccx-plwmz-4kywk-sehbr-yrfs3-fnc88-y9x5p-ep3kn-9sf2l-5bt5a-nz6a7",
+      "evidence_date": "2026-10-25"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -117.37783,
+     33.97835
+    ]
+   },
+   "properties": {
+    "id": "nacho-anns-deep-cuts-open-mic",
+    "name": "Deep Cuts: Open Mic and Artist Spotlight",
+    "venue": "Nacho Ann's Fabrics",
+    "address": "3760 12th Street, Riverside, CA",
+    "city": "Riverside",
+    "schedule_text": "Friday 2026-11-20, 6 PM to 9 PM (Friendsgiving edition); recurrence not stated",
+    "schedule_rule": "irregular",
+    "signup_time": null,
+    "start_time": "6:00 PM",
+    "end_time": "9:00 PM",
+    "signup_method": "RSVP via Eventbrite requested for head-count (free); open-mic sign-up method not stated",
+    "format": "music",
+    "slot": null,
+    "backline": null,
+    "ages": "all",
+    "cost": "Free (optional donation tiers)",
+    "host": "Nacho Ann's Fabrics",
+    "instagram": null,
+    "facebook": null,
+    "latest_evidence_date": "2026-11-06",
+    "status": "confirmed",
+    "notes": "Evidence is a single upcoming listing (undated page; accessed date used). Title pairs an open mic with a featured artist, so open slots may be limited. A search snippet showed an earlier 'Deep Cuts' edition at the same shop (a Jul 31 date, year unclear) so it recurs, but frequency is unverified. Organizer says 'one music event at a time'. Verify slot availability with the shop.",
+    "sources": [
+     {
+      "url": "https://allevents.in/riverside/deep-cuts-friendsgiving-open-mic-and-artist-spotlight-feat-alpha-nancy/100002004498281319",
+      "evidence_date": "2026-11-06"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -117.43945,
+     33.95379
+    ]
+   },
+   "properties": {
+    "id": "packinghouse-brewing-karaoke-open-mic",
+    "name": "Karaoke and Open Mic at Packinghouse",
+    "venue": "Packinghouse Brewing Company",
+    "address": "6421 Central Ave, Riverside, CA 92504",
+    "city": "Riverside",
+    "schedule_text": "Some Saturdays, 6-9 pm or later (recent: Sep 5, Sep 19, Nov 21, 2026)",
+    "schedule_rule": "irregular",
+    "signup_time": null,
+    "start_time": "6:00 PM",
+    "end_time": "9:00 PM",
+    "signup_method": null,
+    "format": "mixed",
+    "slot": null,
+    "backline": null,
+    "ages": "unknown",
+    "cost": "No cover",
+    "host": "Patrick Maloney / Riverside Open Mic Music Series",
+    "instagram": "https://www.instagram.com/riversideopenmic/",
+    "facebook": "https://www.facebook.com/events/4550968705163405/",
+    "latest_evidence_date": "2026-11-06",
+    "status": "confirmed",
+    "notes": "Karaoke and open mic on the same night, so live-instrument slots may be fewer. Dates from the host's Instagram (checked 2026-11-07) and a Facebook event for Nov 21.",
+    "sources": [
+     {
+      "url": "https://www.facebook.com/events/4550968705163405/",
+      "evidence_date": "2026-11-06"
+     },
+     {
+      "url": "https://packinghousebeer.com/",
+      "evidence_date": "2026-11-06"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -117.56137,
+     33.91911
+    ]
+   },
+   "properties": {
+    "id": "rockstars-of-tomorrow-norco-open-mic",
+    "name": "Open Mic Night at Rockstars of Tomorrow",
+    "venue": "Rockstars of Tomorrow Norco",
+    "address": "1900 Lampton Lane, Norco, CA 92860",
+    "city": "Norco",
+    "schedule_text": "Monthly Friday nights; the most recent was Fri Oct 30 at 7 pm. Check the page for the next date.",
+    "schedule_rule": "irregular",
+    "signup_time": "Online form before the night",
+    "start_time": "7:00 PM",
+    "end_time": null,
+    "signup_method": "Online form; first come, first served; backing tracks by email",
+    "format": "music",
+    "slot": null,
+    "backline": "Backing tracks accepted",
+    "ages": "all",
+    "cost": null,
+    "host": "Rockstars of Tomorrow Norco (music school)",
+    "instagram": null,
+    "facebook": null,
+    "latest_evidence_date": "2026-10-30",
+    "status": "confirmed",
+    "notes": "The page shows \"SIGN UPS CLOSED!!!\" for Oct 30 and gives no next date yet. The year isn't printed; Oct 30 is a Friday in 2026.",
+    "sources": [
+     {
+      "url": "https://rotnorco.rockstarsoftomorrow.com/open-mic-night",
+      "evidence_date": "2026-10-30"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -117.45625,
+     33.90553
+    ]
+   },
+   "properties": {
+    "id": "rockstars-of-tomorrow-riverside-open-mic",
+    "name": "Open Mic Night at Rockstars of Tomorrow",
+    "venue": "Rockstars of Tomorrow Riverside",
+    "address": "3392 Tyler St, Riverside, CA 92503",
+    "city": "Riverside",
+    "schedule_text": "First Friday of every month, 7-9 pm",
+    "schedule_rule": "monthly:1FR",
+    "signup_time": "Online form before the night",
+    "start_time": "7:00 PM",
+    "end_time": "9:00 PM",
+    "signup_method": "Online form; first come, first served",
+    "format": "music",
+    "slot": "Under 5 minutes",
+    "backline": "Backing tracks by link on the form",
+    "ages": "all",
+    "cost": null,
+    "host": "Rockstars of Tomorrow Riverside (music school)",
+    "instagram": null,
+    "facebook": null,
+    "latest_evidence_date": null,
+    "status": "likely",
+    "notes": "The venue's own current page states the schedule, but it carries no dated event, so it stays 'likely' until a dated post confirms it.",
+    "sources": [
+     {
+      "url": "https://rotriverside.rockstarsoftomorrow.com/open-mic-night",
+      "evidence_date": null
+     }
+    ]
+   }
+  }
+ ]
+}
